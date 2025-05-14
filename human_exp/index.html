@@ -1,0 +1,50 @@
+<!-- index.html 主页面 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>评测系统 - 主页</title>
+    <style>
+        .question-list { margin: 20px; }
+        .question-item { padding: 10px; border-bottom: 1px solid #ccc; }
+        .pagination { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="question-list" id="questionList"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        let allQuestions = [];
+        const QUESTIONS_PER_PAGE = 10;
+
+        // 加载JSON数据（需要实际文件路径）
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                allQuestions = data;
+                showPage(1);
+                setupPagination();
+            });
+
+        function showPage(page) {
+            const start = (page - 1) * QUESTIONS_PER_PAGE;
+            const end = start + QUESTIONS_PER_PAGE;
+            const html = allQuestions.slice(start, end).map((q, i) => `
+                <div class="question-item">
+                    <a href="question.html?id=${start + i}">Question ${start + i + 1}</a>
+                </div>
+            `).join('');
+            document.getElementById('questionList').innerHTML = html;
+        }
+
+        function setupPagination() {
+            const totalPages = Math.ceil(allQuestions.length / QUESTIONS_PER_PAGE);
+            let paginationHtml = '';
+            for (let i = 1; i <= totalPages; i++) {
+                paginationHtml += `<button onclick="showPage(${i})">${i}</button> `;
+            }
+            document.getElementById('pagination').innerHTML = paginationHtml;
+        }
+    </script>
+</body>
+</html>

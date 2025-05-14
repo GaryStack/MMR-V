@@ -1,0 +1,896 @@
+[
+    {
+        "video": "Volvo Trucks - The Epic Split feat. Van Damme.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "This is a commercial advertisement."
+    },
+    {
+        "video": "Volvo Trucks - The Epic Split feat. Van Damme.mp4",
+        "videoType": "advertisement",
+        "question": "Please guess what the core message of the entire video is intended to convey.",
+        "reference answer": "To showcase the stability of the Volvo trucks."
+    },
+    {
+        "video": "Volvo Trucks - The Epic Split feat. Van Damme.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following options do you think this video is most likely promoting?",
+        "reference answer": "Volvo trucks",
+        "false options": "Jean-Claude Van Damme"
+    },
+    {
+        "video": "Messi Commercial - The Robot.mp4",
+        "videoType": "advertisement",
+        "question": "Based on the content of the video, what might be unusual about Messi wearing a red outfit?",
+        "reference answer": "His stiff expressions and movements suggest that he is a robot."
+    },
+    {
+        "video": "Messi Commercial - The Robot.mp4",
+        "videoType": "advertisement",
+        "question": "What message does the entire video intend to convey?",
+        "reference answer": "This telecommunications company has a strong signal transmission capability."
+    },
+    {
+        "video": "Know the reason for extreme heat this summer! #WhoIsSuraj.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think is the core purpose behind the creator making this video?",
+        "reference answer": "To advertise for an air conditioning company.",
+        "false options": [
+            "To advertise for an ice cream company.",
+            "To advertise for a summer retreat company."
+        ]
+    },
+    {
+        "video": "Know the reason for extreme heat this summer! #WhoIsSuraj.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following options is most likely the inner monologue conveyed by the man's expression at 2:40?",
+        "reference answer": "This time, my ice cream finally didn't melt in just a second!"
+    },
+    {
+        "video": "Know the reason for extreme heat this summer! #WhoIsSuraj.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following techniques and methods is used most frequently in the film?",
+        "reference answer": "The most frequently used technique is exaggeration."
+    },
+    {
+        "video": "Santander Bank Piggy 2018.mp4",
+        "videoType": "advertisement",
+        "question": "What is the little pig at the beginning of the film most likely to symbolize?",
+        "reference answer": "The residents' property.",
+        "false options": "The girl's toy and her hope."
+    },
+    {
+        "video": "Santander Bank Piggy 2018.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think the pink pig in the video represents?",
+        "reference answer": "It is a piggy bank."
+    },
+    {
+        "video": "Santander Bank Piggy 2018.mp4",
+        "videoType": "advertisement",
+        "question": "The creator most likely made this video to convey which of the following core ideas?",
+        "reference answer": "This video is intended to advertise and promote Santander Bank."
+    },
+    {
+        "video": "Santander Bank Piggy 2018.mp4",
+        "videoType": "advertisement",
+        "question": "What might the long sequence of scenes and plot starting after 0:42 symbolize?",
+        "reference answer": "It symbolizes that Santander Bank will protect the safety of its customers' assets."
+    },
+    {
+        "video": "Santander Bank Piggy 2018.mp4",
+        "videoType": "advertisement",
+        "question": "What does the black person in the video represent?",
+        "reference answer": "He represents the responsibilities of all the staff members at Santander Bank."
+    },
+    {
+        "video": "Heart Touching Short Film.mp4",
+        "videoType": "movie",
+        "question": "Summarize the situation and experiences of the man in the first story.",
+        "reference answer": "It illustrates how a man, surrounded by a cold and often brutal society, gradually becomes more disillusioned."
+    },
+    {
+        "video": "Heart Touching Short Film.mp4",
+        "videoType": "movie",
+        "question": "What do you think the third story teaches us?",
+        "reference answer": "It teaches us to always be kind to others, and one day, our kind acts may be rewarded."
+    },
+    {
+        "video": "Heart Touching Short Film.mp4",
+        "videoType": "movie",
+        "question": "What kind of theme does the first scene in the film symbolize?",
+        "reference answer": "A growing shadow in a cold and unfeeling world."
+    },
+    {
+        "video": "Heart Touching Short Film.mp4",
+        "videoType": "movie",
+        "question": "Please come up with a suitable and meaningful title for the first story.",
+        "reference answer": "The Mask"
+    },
+    {
+        "video": "Heart Touching Short Film.mp4",
+        "videoType": "movie",
+        "question": "What is the most thought-provoking aspect of the first story?",
+        "reference answer": "He has the most wonderful smile no-one can appreciate it."
+    },
+    {
+        "video": "All Gorilla glue ads.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think the chimpanzee that appears multiple times in the film symbolizes?",
+        "reference answer": "It symbolizes a glue company."
+    },
+    {
+        "video": "All Gorilla glue ads.mp4",
+        "videoType": "advertisement",
+        "question": "Based on the entire video, summarize and conclude under what circumstances the chimpanzee typically appears.",
+        "reference answer": "When there is something that needs to be glued together."
+    },
+    {
+        "video": "All Gorilla glue ads.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "A commercial advertisement."
+    },
+    {
+        "video": "All Gorilla glue ads.mp4",
+        "videoType": "advertisement",
+        "question": "Why do you think the chimpanzee suddenly appears beside the woman at 1:17?",
+        "reference answer": "Because the chair next to her, which was glued together with inferior glue, broke."
+    },
+    {
+        "video": "Nike Football - Winner Stays.mp4",
+        "videoType": "advertisement",
+        "question": "Why did a man in uniform suddenly appear in the middle of the huge soccer field?",
+        "reference answer": "Because this is actually an imagined scene; in reality, it's taking place on a street-side field."
+    },
+    {
+        "video": "Nike Football - Winner Stays.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think this video is most likely for?",
+        "reference answer": "It is most likely a commercial advertisement."
+    },
+    {
+        "video": "Nike Football - Winner Stays.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following sports stars appears in the video?",
+        "reference answer": "Andrés Iniesta"
+    },
+    {
+        "video": "Nintendo Ad - Two Brothers.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think the two brothers in the film most likely symbolize?",
+        "reference answer": "They are the metaphor for Mario and Luigi."
+    },
+    {
+        "video": "Nintendo Ad - Two Brothers.mp4",
+        "videoType": "advertisement",
+        "question": "What theme is the entire film most likely expressing?",
+        "reference answer": "It showcases the two brothers, as adults, reminiscing about the simple joys of their childhood."
+    },
+    {
+        "video": "Nintendo Ad - Two Brothers.mp4",
+        "videoType": "advertisement",
+        "question": "Please come up with a suitable title for this video.",
+        "reference answer": "Two Brothers"
+    },
+    {
+        "video": "Nintendo Ad - Two Brothers.mp4",
+        "videoType": "advertisement",
+        "question": "What is the most likely purpose behind the creator making this video?",
+        "reference answer": "To promote Nintendo Corporation.",
+        "false options": "To evoke and celebrate the wonderful times of childhood."
+    },
+    {
+        "video": "Nintendo Ad - Two Brothers.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "A commercial advertisement."
+    },
+    {
+        "video": "P&G 'Thank You, Mom' Campaign Ad: 'Strong' (Rio 2016 Olympics).mp4",
+        "videoType": "advertisement",
+        "question": "What year do you think this video was most likely released in?",
+        "reference answer": "2016"
+    },
+    {
+        "video": "P&G 'Thank You, Mom' Campaign Ad: 'Strong' (Rio 2016 Olympics).mp4",
+        "videoType": "advertisement",
+        "question": "Please summarize the core message conveyed by the entire video.",
+        "reference answer": "It celebrates the strength that a mother brings and the desire to become her pride."
+    },
+    {
+        "video": "P&G 'Thank You, Mom' Campaign Ad: 'Strong' (Rio 2016 Olympics).mp4",
+        "videoType": "advertisement",
+        "question": "There are many scenes in the video. Please identify the common core element in these scenes using a single word.",
+        "reference answer": "Motherhood."
+    },
+    {
+        "video": "P&G 'Thank You, Mom' Campaign Ad: 'Strong' (Rio 2016 Olympics).mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following statements can better summarize the principles and main theme reflected in the video?",
+        "reference answer": "It takes someone strong to make someone strong."
+    },
+    {
+        "video": "Reverse Selfie: Social Media's Impact on Girls' Self-Esteem | Dove.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is most likely?",
+        "reference answer": "An advertisement."
+    },
+    {
+        "video": "Reverse Selfie: Social Media's Impact on Girls' Self-Esteem | Dove.mp4",
+        "videoType": "advertisement",
+        "question": "What social phenomenon or issue is primarily reflected in the video?",
+        "reference answer": "The pressure of social media is hurting our girls' self-esteem."
+    },
+    {
+        "video": "Reverse Selfie: Social Media's Impact on Girls' Self-Esteem | Dove.mp4",
+        "videoType": "advertisement",
+        "question": "What does the scene on the girl's phone reflect?",
+        "reference answer": "Behind the glamorous online photos lies the falsity created by photo editing."
+    },
+    {
+        "video": "Reverse Selfie: Social Media's Impact on Girls' Self-Esteem | Dove.mp4",
+        "videoType": "advertisement",
+        "question": "Based on the overall content of the film, what would be the most fitting title for this video?",
+        "reference answer": "Reverse Selfie"
+    },
+    {
+        "video": "Heart of a Lio: The amazing animated short film by Gatorade.mp4",
+        "videoType": "advertisement",
+        "question": "What do you think is the most likely purpose of the video creator?",
+        "reference answer": "The purpose of making the video is to promote their company's brand products."
+    },
+    {
+        "video": "Heart of a Lio: The amazing animated short film by Gatorade.mp4",
+        "videoType": "advertisement",
+        "question": "Please summarize the content of the video in one sentence.",
+        "reference answer": "When Messi has a dream, nothing can stop it."
+    },
+    {
+        "video": "Heart of a Lio: The amazing animated short film by Gatorade.mp4",
+        "videoType": "advertisement",
+        "question": "What might the green jersey number and name floating in the sky symbolize?",
+        "reference answer": "Messi will break through all the attacks and doubts to fulfill his dream."
+    },
+    {
+        "video": "Heart of a Lio: The amazing animated short film by Gatorade.mp4",
+        "videoType": "advertisement",
+        "question": "What does the green highlighter that appears throughout the video symbolize?",
+        "reference answer": "The external skepticism, off-field influences, and the resistance to winning the championship."
+    },
+    {
+        "video": "Heart of a Lio: The amazing animated short film by Gatorade.mp4",
+        "videoType": "advertisement",
+        "question": "The film features two instances of time travel. What might the second one symbolize?",
+        "reference answer": "It symbolizes that Messi's childhood aspirations give him the unwavering confidence to move forward."
+    },
+    {
+        "video": "Spec commercial - SONY.mp4",
+        "videoType": "advertisement",
+        "question": "What might be the primary purpose of creating this video?",
+        "reference answer": "To advertise and promote Sony headphones."
+    },
+    {
+        "video": "Spec commercial - SONY.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following statements can better summarize the core message of this video?",
+        "reference answer": "Find your focus."
+    },
+    {
+        "video": "Spec commercial - SONY.mp4",
+        "videoType": "advertisement",
+        "question": "What might the girl's facial expression around the 0:35 mark symbolize?",
+        "reference answer": "It symbolizes that the noise coming from the person next to her is making it difficult for her to concentrate."
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "Please suggest an appropriate title for this magical video.",
+        "reference answer": "Playing With Time"
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "How many separate takes at least would be needed to capture the scenes of the block tower in the video?",
+        "reference answer": "At least two separate takes would be needed."
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "Does the scene of the milk bottle breaking in the video require only one milk bottle?",
+        "reference answer": "Two are needed because the positions where they break are different.",
+        "false options": "One is enough because it can be achieved through video editing and playing in reverse."
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "Which of the following methods do you think the man most likely used to get this amazing video?",
+        "reference answer": "By shooting multiple takes and then carefully editing them together to create the video."
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "There are multiple scenes in the video. Which of the following options can summarize the commonality among these scenes?",
+        "reference answer": "Bending time and space in slow motion"
+    },
+    {
+        "video": "Playing With Time.mp4",
+        "videoType": "life",
+        "question": "What does the repeated appearance of the pocket watch in the film symbolize?",
+        "reference answer": "It symbolizes the distorted sense of time that the creator wishes to capture."
+    },
+    {
+        "video": "This Video is not in Reverse..mp4",
+        "videoType": "life",
+        "question": "What technique do you think was used to achieve such an amazing effect in the video?",
+        "reference answer": "Through ingenious mechanisms and acting, not by playing in reverse.",
+        "false options": "The video was achieved through masterful editing techniques and the use of reverse playback."
+    },
+    {
+        "video": "This Video is not in Reverse..mp4",
+        "videoType": "life",
+        "question": "Why do you think the white candle lights up instead of going out when the man blows on it in the video?",
+        "reference answer": "It's an electric light designed to mimic a candle, controlled by a switch.",
+        "false options": "In reality, it's the result of blowing out the candle and then playing the footage in reverse, creating this magical effect."
+    },
+    {
+        "video": "This Video is not in Reverse..mp4",
+        "videoType": "life",
+        "question": "How did the card tower next to the man suddenly collapse and then stand up again?",
+        "reference answer": "The card tower was pulled up from collapse by a thin string.",
+        "false options": "It's a pre-built card tower that, after being knocked down, appears to stand up again due to the video being played in reverse."
+    },
+    {
+        "video": "This Video is not in Reverse..mp4",
+        "videoType": "life",
+        "question": "Is the entire video played in reverse? Which key scene led you to this conclusion?",
+        "reference answer": "It is not played in reverse; you can tell from the man spraying away the letter 'P' from the wall."
+    },
+    {
+        "video": "Mercedes-Benz “Chicken” MAGIC BODY CONTROL TV commercial.mp4",
+        "videoType": "advertisement",
+        "question": "Why was a chicken chosen for this scene in the video?",
+        "reference answer": "Due to the stability of a chicken's head, which is similar to the product's feature."
+    },
+    {
+        "video": "Mercedes-Benz “Chicken” MAGIC BODY CONTROL TV commercial.mp4",
+        "videoType": "advertisement",
+        "question": "What feature of the product is the video mainly highlighting?",
+        "reference answer": "The control stability and comfort of the Mercedes-Benz car's autonomous driving."
+    },
+    {
+        "video": "Mercedes-Benz “Chicken” MAGIC BODY CONTROL TV commercial.mp4",
+        "videoType": "advertisement",
+        "question": "What is the most appealing aspect of this advertisement to consumers?",
+        "reference answer": "Using a chicken in the filming of a luxury sedan creates a strong contrast."
+    },
+    {
+        "video": "BERNAS | Chinese New Year Commercial - Family Reunion Dinner 'Sek Fan' English.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following months do you think this video was most likely released in?",
+        "reference answer": "January."
+    },
+    {
+        "video": "BERNAS | Chinese New Year Commercial - Family Reunion Dinner 'Sek Fan' English.mp4",
+        "videoType": "advertisement",
+        "question": "What would you say is the core event element that ties the entire film together?",
+        "reference answer": "It's the family reunion dinner on the table."
+    },
+    {
+        "video": "BERNAS | Chinese New Year Commercial - Family Reunion Dinner 'Sek Fan' English.mp4",
+        "videoType": "advertisement",
+        "question": "What do the memory flashes of the father helping his injured son with rehabilitation symbolize?",
+        "reference answer": "It symbolizes that at home, you can always be a child to your parents. It symbolizes the father teaching him to walk just like when he was a child, showing that a father's love never fades."
+    },
+    {
+        "video": "BERNAS | Chinese New Year Commercial - Family Reunion Dinner 'Sek Fan' English.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "A commercial advertisement."
+    },
+    {
+        "video": "Inside Out - Anger Memorable Moments [HD].mp4",
+        "videoType": "Animation",
+        "question": "What might the small, thin purple figures that appear in the video symbolize?",
+        "reference answer": "They symbolize the little girl's fear."
+    },
+    {
+        "video": "Inside Out - Anger Memorable Moments [HD].mp4",
+        "videoType": "Animation",
+        "question": "What does the red figure inserting something into the console in the video symbolize?",
+        "reference answer": "It symbolizes a sudden idea that popped into the little girl's mind."
+    },
+    {
+        "video": "Inside Out - Anger Memorable Moments [HD].mp4",
+        "videoType": "Animation",
+        "question": "What do you think caused the sudden collapse of the floating island above the canyon in the video?",
+        "reference answer": "Because the female protagonist decides to leave home, the island of familial bonds collapses."
+    },
+    {
+        "video": "Inside Out - Anger Memorable Moments [HD].mp4",
+        "videoType": "Animation",
+        "question": "What might the scene symbolize, where the console turns black and the previously inserted small light bulb cannot be removed?",
+        "reference answer": "This scene symbolizes that the girl's decision to leave home is very firm."
+    },
+    {
+        "video": "Bad tooth funny cartoon #animation #funny #cartoon.mp4",
+        "videoType": "humor",
+        "question": "Why do you think the tooth on the right ended up being yellow in the end?",
+        "reference answer": "Because the dentist repaired it to be a gold-capped tooth."
+    },
+    {
+        "video": "Bad tooth funny cartoon #animation #funny #cartoon.mp4",
+        "videoType": "humor",
+        "question": "What's the punchline of this video?",
+        "reference answer": "The tooth in the middle hoped to be capped, but ended up being pulled out instead."
+    },
+    {
+        "video": "Unreal Engine 5 - Cinematic Car Chase.mp4",
+        "videoType": "movie",
+        "question": "How do you think this entire video was made?",
+        "reference answer": "The entire video was rendered using the Unreal Engine.",
+        "false options": "The video consists of parts of real scenes shot by the creator, with intense chase sequences produced using green screens and special effects."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "What might the scene at 0:14 in the video symbolize?",
+        "reference answer": "It symbolizes the safe and comfortable zone the man is in."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "What philosophy do you think this video aims to convey to its audience?",
+        "reference answer": "Step out of your comfort zone and unleash your potential."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "Which of the following sentences can better summarize the content of the first twenty seconds of the video?",
+        "reference answer": "I put off until tomorrow what could be done today, and thus let opportunities slip away."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "What might the water surrounding the man at the 0:28 mark symbolize?",
+        "reference answer": "It symbolizes the man's predicament of being stuck in his comfort zone and unwilling to leave it."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "What philosophy does the scene that appears at 0:42 in the video symbolize?",
+        "reference answer": "It symbolizes that when we are in our comfort zone, we are always waiting for the perfect moment."
+    },
+    {
+        "video": "Destroy your COMFORT ZONE in just 56 seconds (no excuses!).mp4",
+        "videoType": "philosophy",
+        "question": "Please suggest a title for this video that fits its theme.",
+        "reference answer": "Destroy your COMFORT ZONE"
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "In the video, there's a scene where five little figures line up to enter and exit a small house. What does this small house actually symbolize?",
+        "reference answer": "It symbolizes this video that changes people's mindset."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "In the video, there is a scene where a little figure is in a glass bowl. What does this glass bowl symbolize?",
+        "reference answer": "The glass bowl symbolizes a concept known as a fixed mindset."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "Could you summarize what the core message of the scenes between 0:52 and 1:12 is?",
+        "reference answer": "This segment of the video illustrates the dilemmas that a fixed mindset can lead to."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "What does the initial scene with four little figures lined up in a row symbolize in the entire video?",
+        "reference answer": "This scene symbolizes that people seem to make no progress or change year after year."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "What might the curly-haired figure at 2:12 symbolize?",
+        "reference answer": "It symbolizes the British author J.K. Rowling.",
+        "false options": "It symbolizes the rapid progress and enhanced skills that come with adjusting your mindset to a growth mindset."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "What do the several red lines that appear at 3:05 in the video symbolize?",
+        "reference answer": "These red lines symbolize the comfort zone in a person's brain that resists change."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "Which of the following options can summarize the core philosophy introduced in the entire video?",
+        "reference answer": "Transforming the brain from a fixed mindset to a growth mindset."
+    },
+    {
+        "video": "This MINDSET Shift Will CHANGE Your Life Forever.mp4",
+        "videoType": "philosophy",
+        "question": "What philosophy does the scene at 1:22 symbolize?",
+        "reference answer": "It's not an innate ability, but rather something achieved through hard work."
+    },
+    {
+        "video": "How Good Is Your Attention Span? (TEST).mp4",
+        "videoType": "philosophy",
+        "question": "What is the most likely purpose of the video creator?",
+        "reference answer": "To test how long you can maintain your focus.",
+        "false options": "The creator hopes that everyone can take a break from the pressures and difficulties of reality for 3 minutes and watch this video to relieve stress."
+    },
+    {
+        "video": "The Feeling You Forgot.mp4",
+        "videoType": "philosophy",
+        "question": "By watching the entire video, what kind of philosophy can you gain from it?",
+        "reference answer": "The more you feed your ambition, the less you remember what it was like to be stuck."
+    },
+    {
+        "video": "The Feeling You Forgot.mp4",
+        "videoType": "philosophy",
+        "question": "What do you think is the most likely source of laughter in the video?",
+        "reference answer": "When the creator burps and breathes fire while sitting on the couch."
+    },
+    {
+        "video": "The Feeling You Forgot.mp4",
+        "videoType": "philosophy",
+        "question": "What does the light bulb, which appears multiple times in the video, symbolize?",
+        "reference answer": "It symbolizes the feeling you forgot."
+    },
+    {
+        "video": "Hooked.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following options do you think can best summarize the content expressed in the video?",
+        "reference answer": "He's both a terrible fisherman and an absurdly great one."
+    },
+    {
+        "video": "Hooked.mp4",
+        "videoType": "Animation",
+        "question": "What is used in the video to express the feeling of frustration?",
+        "reference answer": "The camera angle and the hat are used to convey the feeling of frustration."
+    },
+    {
+        "video": "Hooked.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following titles would be more suitable for this video?",
+        "reference answer": "Hooked"
+    },
+    {
+        "video": "How to Never Run Out of Things to Say.mp4",
+        "videoType": "philosophy",
+        "question": "Summarize what issue the entire video aims to convey and address.",
+        "reference answer": "It is the issue of running out of things to say in conversations."
+    },
+    {
+        "video": "How to Never Run Out of Things to Say.mp4",
+        "videoType": "philosophy",
+        "question": "What might the soccer ball at the feet of the two little figures during the earlier part of the film symbolize?",
+        "reference answer": "This symbolizes that it's now someone's turn to start a new topic."
+    },
+    {
+        "video": "How to Never Run Out of Things to Say.mp4",
+        "videoType": "philosophy",
+        "question": "What might be the emotional state of the two acquaintances facing each other at 0:20?",
+        "reference answer": "They feel awkward and unsure of what to say."
+    },
+    {
+        "video": "The 1% Mindset..mp4",
+        "videoType": "philosophy",
+        "question": "What is the purpose of the creator choosing this animation to accompany the narration?",
+        "reference answer": "The animation is inspirational, intended to motivate people to make changes."
+    },
+    {
+        "video": "The 1% Mindset..mp4",
+        "videoType": "philosophy",
+        "question": "Please suggest an appropriate title for this video.",
+        "reference answer": "The 1% Mindset"
+    },
+    {
+        "video": "BELIEVE IN CHICKEN.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is most likely to be?",
+        "reference answer": "Commercial advertisement."
+    },
+    {
+        "video": "BELIEVE IN CHICKEN.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following companies is the entire video most likely to be a commercial advertisement for?",
+        "reference answer": "KFC"
+    },
+    {
+        "video": "BELIEVE IN CHICKEN.mp4",
+        "videoType": "advertisement",
+        "question": "What are people's dances imitating, and what do they symbolize?",
+        "reference answer": "Everyone's dance is imitating chicken, symbolizing a common understanding among the public."
+    },
+    {
+        "video": "Opportunities - Filmstro & Film Riot One Minute Short Film Competition.mp4",
+        "videoType": "philosophy",
+        "question": "What does the opening and closing of the door in the video symbolize?",
+        "reference answer": "It symbolizes the sudden opportunities that arise in life."
+    },
+    {
+        "video": "Opportunities - Filmstro & Film Riot One Minute Short Film Competition.mp4",
+        "videoType": "philosophy",
+        "question": "What does the man's consistent sitting on a chair throughout the first half of the video symbolize?",
+        "reference answer": "Each time an opportunity arises, we overthink and hesitate to make a decision."
+    },
+    {
+        "video": "Opportunities - Filmstro & Film Riot One Minute Short Film Competition.mp4",
+        "videoType": "philosophy",
+        "question": "Which of the following words can better describe the man's emotions while sitting on the chair in the first half?",
+        "reference answer": "Anxiety."
+    },
+    {
+        "video": "Opportunities - Filmstro & Film Riot One Minute Short Film Competition.mp4",
+        "videoType": "philosophy",
+        "question": "What philosophy does the creator hope to convey to the audience through this video?",
+        "reference answer": "The creator hopes to encourage everyone to seize the fleeting opportunities before them without hesitation."
+    },
+    {
+        "video": "Run Like a Girl - Commercial.mp4",
+        "videoType": "advertisement",
+        "question": "What is the core message that the film aims to convey?",
+        "reference answer": "To break through established prejudices and stereotypes."
+    },
+    {
+        "video": "Run Like a Girl - Commercial.mp4",
+        "videoType": "advertisement",
+        "question": "Observing the reactions of adults and children to the same question in the first half of the film, what issue does this reflect?",
+        "reference answer": "As people grow older, they become solidified by societal prejudices."
+    },
+    {
+        "video": "Run Like a Girl - Commercial.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "A commercial advertisement."
+    },
+    {
+        "video": "Run Like a Girl - Commercial.mp4",
+        "videoType": "advertisement",
+        "question": "What social issue does the entire film reflect?",
+        "reference answer": "Society has stereotypes and prejudices against women."
+    },
+    {
+        "video": "The Real First Kiss.mp4",
+        "videoType": "philosophy",
+        "question": "What technique does the film use to ensure the participants' performances are natural?",
+        "reference answer": "There are no scenes in the entire film where someone calls action for the normal shooting."
+    },
+    {
+        "video": "The Real First Kiss.mp4",
+        "videoType": "philosophy",
+        "question": "What kind of connotation does the film aim to portray?",
+        "reference answer": "To specifically capture the moment when love blossoms."
+    },
+    {
+        "video": "The Real First Kiss.mp4",
+        "videoType": "philosophy",
+        "question": "What do you think are the two stages of emotional changes in the participants?",
+        "reference answer": "From awkwardness to a feeling of being smitten."
+    },
+    {
+        "video": "Procrastination | Short Film.mp4",
+        "videoType": "philosophy",
+        "question": "What common phenomenon do you think this video aims to convey?",
+        "reference answer": "The video accurately and vividly demonstrates the procrastination."
+    },
+    {
+        "video": "Procrastination | Short Film.mp4",
+        "videoType": "philosophy",
+        "question": "What shots appear repeatedly in the film, and what do they symbolize?",
+        "reference answer": "The blinking cursor on the computer screen appears multiple times, symbolizing procrastination."
+    },
+    {
+        "video": "Procrastination | Short Film.mp4",
+        "videoType": "philosophy",
+        "question": "Which of the following comments is most likely to resonate and prompt reflection among the audience?",
+        "reference answer": "REALITY CHECK: We all are procrastinating while watching this."
+    },
+    {
+        "video": "Awkward Moments That Happen in Public..mp4",
+        "videoType": "life",
+        "question": "Summarize the emotions reflected in all the scenes of the video.",
+        "reference answer": "All the scenes in the video reflect his feeling of embarrassment."
+    },
+    {
+        "video": "Awkward Moments That Happen in Public..mp4",
+        "videoType": "life",
+        "question": "What does the scene starting at 0:56 mean?",
+        "reference answer": "After saying goodbye while catching up, they realize they're heading in the same direction, which is awkward."
+    },
+    {
+        "video": "Awkward Moments That Happen in Public..mp4",
+        "videoType": "life",
+        "question": "Which of the following scenes would be similar enough to fit into this video?",
+        "reference answer": "You see a familiar figure from behind, call out to him, only to realize you don't know him."
+    },
+    {
+        "video": "Awkward Moments That Happen in Public..mp4",
+        "videoType": "life",
+        "question": "Which of the following scenes would be similar enough to fit into this video?",
+        "reference answer": "You forget to silence your phone in class, and it rings during a lecture."
+    },
+    {
+        "video": "Awkward Moments That Happen in Public..mp4",
+        "videoType": "life",
+        "question": "Which of the following scenes would be similar enough to fit into this video?",
+        "reference answer": "When you're loudly discussing someone, only to find out they're right behind you."
+    },
+    {
+        "video": "The 2nd Place Effect..mp4",
+        "videoType": "philosophy",
+        "question": "Please come up with a clever title for this video.",
+        "reference answer": "The 2nd Place Effect"
+    },
+    {
+        "video": "The 2nd Place Effect..mp4",
+        "videoType": "philosophy",
+        "question": "Why didn't the man in gray at the end laugh?",
+        "reference answer": "Because he almost made it to first place, and it was a great regret."
+    },
+    {
+        "video": "REAL | One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "Please summarize the emotion conveyed by this video in one word.",
+        "reference answer": "Fear"
+    },
+    {
+        "video": "REAL | One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "Please suggest a suitable and fitting title for this video.",
+        "reference answer": "REAL"
+    },
+    {
+        "video": "JUMPER - Suspense Thriller Short Film.mp4",
+        "videoType": "movie",
+        "question": "Please summarize the emotion conveyed by this video in one word.",
+        "reference answer": "Fear"
+    },
+    {
+        "video": "JUMPER - Suspense Thriller Short Film.mp4",
+        "videoType": "movie",
+        "question": "Why did the female businessman act that way at the end?",
+        "reference answer": "Because after her elevator encounter, she realized she was being followed."
+    },
+    {
+        "video": "Lazy Chapters || 1 Minute Short Film || Emmarad Hossain || Framescape.mp4",
+        "videoType": "movie",
+        "question": "Please suggest a suitable and fitting title for this video.",
+        "reference answer": "Lazy Chapters"
+    },
+    {
+        "video": "Lockdown | One Minute Short Film Challenge | Film Riot.mp4",
+        "videoType": "movie",
+        "question": "Which year do you think this video was most likely released?",
+        "reference answer": "2020"
+    },
+    {
+        "video": "Lockdown | One Minute Short Film Challenge | Film Riot.mp4",
+        "videoType": "movie",
+        "question": "Please suggest a meaningful and fitting title for this video.",
+        "reference answer": "Lockdown"
+    },
+    {
+        "video": "Lockdown | One Minute Short Film Challenge | Film Riot.mp4",
+        "videoType": "movie",
+        "question": "What changes in the man's emotions can be observed?",
+        "reference answer": "The man's emotions shift from initial calmness to suppressed irritability."
+    },
+    {
+        "video": "Lockdown | One Minute Short Film Challenge | Film Riot.mp4",
+        "videoType": "movie",
+        "question": "If this were 2020, what is the most likely reason for the man's situation in the video?",
+        "reference answer": "Due to the COVID-19 pandemic and the quarantine measures it necessitated."
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Why did the coin disappear from the man's hand between 1:31 and 1:37?",
+        "reference answer": "Because the man took the coin away with his right hand."
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Where did the man produce a coin from between 3:15 and 3:24?",
+        "reference answer": "The coin was actually hidden in the man's left sleeve all along.",
+        "false options": [
+            "The coin was actually in the man's right sleeve the whole time.",
+            "The coin was actually on the table beside the man all along. He skillfully picked it up from the table when the audience wasn't paying attention, with a very practiced motion."
+        ]
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Between 3:52 and 4:01, when did the man make the first coin reappear in his right hand?",
+        "reference answer": "The first coin was in his right hand all along.",
+        "false options": "After the man picked up the second coin with his right hand, he quickly tossed the first coin back into his left hand, out of view."
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How were all the magical scenes in the video achieved?",
+        "reference answer": "It's the result of the magician's long-term practice and skillful technique.",
+        "false options": "It's the result of superb post-production video editing techniques that create amazing visual effects."
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How do you think the two coins in the man's hand suddenly disappeared between 6:13 and 6:23?",
+        "reference answer": "The man's right hand took both coins away.",
+        "false options": [
+            "Both coins were taken away by the man's left hand.",
+            "The man hid both coins in his sleeves, using sleight of hand to shield the audience's view.",
+            "The man quickly took the first coin with his right hand, and with a swift trick, he tossed the second coin elsewhere, pretending it vanished into thin air."
+        ]
+    },
+    {
+        "video": "10 VISUAL Coin Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How do you think the man managed to seemingly pluck a coin out of thin air with tweezers between 7:05 and 7:10?",
+        "reference answer": "The coin was actually clipped onto the tweezers all along.",
+        "false options": [
+            "This is actually a magical effect achieved through post-production video editing, and the traces of editing can be clearly seen."
+        ]
+    },
+    {
+        "video": "XiaoHongShu video #66e021d60000000026031a5c.mp4",
+        "videoType": "humor",
+        "question": "Based on this video, which of the following comments would likely make people laugh?",
+        "reference answer": "Crab: Why can't I be reincarnated yet? God: You still have a physical form lingering in the human world."
+    },
+    {
+        "video": "XiaoHongShu video #66e021d60000000026031a5c.mp4",
+        "videoType": "humor",
+        "question": "Which of the following comments, when paired with this video, would create a comedic effect?",
+        "reference answer": "This crab is a veteran employee and still has to work overtime."
+    },
+    {
+        "video": "5 Simple Ways to Read Anyone's Mind | Revealed.mp4",
+        "videoType": "life",
+        "question": "How did the man correctly guess and write the letter 'F' on paper, which the audience was thinking of, between 1:02 and 1:30?",
+        "reference answer": "He secretly used a mechanism on his right thumb to write the letter 'F'",
+        "false options": [
+            "This is a form of mind reading, essentially using micro-expressions to infer what someone is thinking, and then writing it down on paper with a pencil.",
+            "This is actually an effect achieved through video editing; he spliced together two separate clips to create this magical illusion, it's not real magic."
+        ]
+    },
+    {
+        "video": "5 Simple Ways to Read Anyone's Mind | Revealed.mp4",
+        "videoType": "life",
+        "question": "In the scene starting at 1:02, why does the man put the pencil aside after bringing the paper to the table in front?",
+        "reference answer": "To assure the audience that he won't modify the letter on the card again."
+    },
+    {
+        "video": "5 Simple Ways to Read Anyone's Mind | Revealed.mp4",
+        "videoType": "life",
+        "question": "Between 3:45 and 5:03, can you speculate why the magician was able to guess the card the audience ended up choosing?",
+        "reference answer": "By manipulating the shuffle to control the audience's card selection.",
+        "false options": [
+            "This is a form of mind reading, essentially using micro-expressions to infer what someone is thinking, and then writing it down on paper with a pencil.",
+            "This is actually an effect achieved through video editing; he spliced together two separate clips to create this magical illusion, it's not real magic."
+        ]
+    },
+    {
+        "video": "5 Simple Ways to Read Anyone's Mind | Revealed.mp4",
+        "videoType": "life",
+        "question": "Between 3:45 and 5:03, can you speculate what the remaining card is, aside from the Ace of Spades that the audience ultimately chose?",
+        "reference answer": "It is the Seven of Hearts."
+    },
+    {
+        "video": "the loop. (one-minute movie about ADHD).mp4",
+        "videoType": "movie",
+        "question": "What do you think the video most likely aims to convey?",
+        "reference answer": "The video aims to convey the life experiences of a person with ADHD."
+    },
+    {
+        "video": "WISH DRAGON Clip - ＂Funny Dragon Fight＂ (2021).mp4",
+        "videoType": "Animation",
+        "question": "Why do you think the little girl in green suddenly covers the eyes of the elderly person with a cane beside her?",
+        "reference answer": "Because the two dragons in front of them seemed to start kissing."
+    }
+]

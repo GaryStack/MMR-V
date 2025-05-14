@@ -1,0 +1,1005 @@
+[
+    {
+        "video": "'Battle Drums' celebrates Chinese New Year and Winter Olympics.mp4",
+        "videoType": "art",
+        "question": "Which of the following festivals might this song have been designed for?",
+        "reference answer": "Chinese New Year"
+    },
+    {
+        "video": "'Battle Drums' celebrates Chinese New Year and Winter Olympics.mp4",
+        "videoType": "art",
+        "question": "Please come up with a suitable title for this music video.",
+        "reference answer": "Battle Drums"
+    },
+    {
+        "video": "'Battle Drums' celebrates Chinese New Year and Winter Olympics.mp4",
+        "videoType": "art",
+        "question": "The performance in the video might be to celebrate the upcoming opening of which of the following events.",
+        "reference answer": "The Beijing Winter Olympics"
+    },
+    {
+        "video": "'Battle Drums' celebrates Chinese New Year and Winter Olympics.mp4",
+        "videoType": "art",
+        "question": "Where is the video most likely to have been filmed?",
+        "reference answer": "At the foot of the Great Wall"
+    },
+    {
+        "video": "[4K] Hangzhou 2024 in the misty rain ｜ West Lake, Lingyin Temple, Night walking in Hefang Street.mp4",
+        "videoType": "life",
+        "question": "The plaque inscribed with “Dominating Three Continents” that appears in the video is most likely to be found in the architecture of which of the following religions?",
+        "reference answer": "Buddhism"
+    },
+    {
+        "video": "[4K] Hangzhou 2024 in the misty rain ｜ West Lake, Lingyin Temple, Night walking in Hefang Street.mp4",
+        "videoType": "life",
+        "question": "The pagoda that appears around the 14-minute mark is most likely related to which of the following legendary stories?",
+        "reference answer": "The Legend of the White Snake"
+    },
+    {
+        "video": "[4K] Hangzhou 2024 in the misty rain ｜ West Lake, Lingyin Temple, Night walking in Hefang Street.mp4",
+        "videoType": "life",
+        "question": "The district where the 'Super Chocolate Company' appears in the video is most likely modeled after which dynasty?",
+        "reference answer": "The Song Dynasty"
+    },
+    {
+        "video": "1. Melancholy.mp4",
+        "videoType": "life",
+        "question": "Please speculate which country this vlog might have been filmed in.",
+        "reference answer": "Italy"
+    },
+    {
+        "video": "1. Melancholy.mp4",
+        "videoType": "life",
+        "question": "Please summarize the core emotion that the creator wants to convey through this vlog in one word.",
+        "reference answer": "Melancholy"
+    },
+    {
+        "video": "1. Melancholy.mp4",
+        "videoType": "life",
+        "question": "Is the image that appears at 2:11 a painting? If so, what type of painting is it?",
+        "reference answer": "It's not a painting, because the vehicles are moving."
+    },
+    {
+        "video": "6 AM ｜ Film Riot - One Minute Short Contest.mp4",
+        "videoType": "movie",
+        "question": "How does the creator use the camera and visual imagery to express the encounter and collision of the two characters' destinies?",
+        "reference answer": "The black dividing line in the center of the frame disappears."
+    },
+    {
+        "video": "6 AM ｜ Film Riot - One Minute Short Contest.mp4",
+        "videoType": "movie",
+        "question": "Why do the two people end up smiling at each other?",
+        "reference answer": "Because they realize they are looking at the same book."
+    },
+    {
+        "video": "6 AM ｜ Film Riot - One Minute Short Contest.mp4",
+        "videoType": "movie",
+        "question": "What is the artistic effect of the film ending abruptly?",
+        "reference answer": "It employs the technique of leaving space blank, providing the audience with room for imagination."
+    },
+    {
+        "video": "When earth and air signs quarrel belike.mp4",
+        "videoType": "life",
+        "question": "What personality traits of earth signs are prominently depicted in the video?",
+        "reference answer": "People born under earth signs tend to be thoughtful and hold grudges."
+    },
+    {
+        "video": "When earth and air signs quarrel belike.mp4",
+        "videoType": "life",
+        "question": "Where are the humorous moments in the video?",
+        "reference answer": "One person completely forgets the conflict, while the other remembers it vividly."
+    },
+    {
+        "video": "My 2025.mp4",
+        "videoType": "life",
+        "question": "What metaphor does the creator want to convey throughout the video?",
+        "reference answer": "The year 2025 might not be as wonderful as planned, with unexpected events occurring."
+    },
+    {
+        "video": "My 2025.mp4",
+        "videoType": "life",
+        "question": "What role does the Golden Retriever play in the metaphorical expression of the video?",
+        "reference answer": "The Golden Retriever represents the sudden and unknown factors in 2025."
+    },
+    {
+        "video": "The price in life.mp4",
+        "videoType": "life",
+        "question": "What kind of reflection does the creator want to evoke from the audience through the video?",
+        "reference answer": "To provoke a re-examination of prices and the consideration of downgrading consumption."
+    },
+    {
+        "video": "The price in life.mp4",
+        "videoType": "life",
+        "question": "Why does the man in the white shirt let out an exclamation?",
+        "reference answer": "Because the price of just a few vegetables in the takeout could buy a large bag of fresh vegetables."
+    },
+    {
+        "video": "Taiwan pun.mp4",
+        "videoType": "life",
+        "question": "What comedic technique does this video use to make the audience laugh?",
+        "reference answer": "Pun-based humor"
+    },
+    {
+        "video": "舞蹈《飞天》.mp4",
+        "videoType": "art",
+        "question": "The culture of which of the following cities is this dance most likely to belong to?",
+        "reference answer": "Dunhuang"
+    },
+    {
+        "video": "舞蹈《飞天》.mp4",
+        "videoType": "art",
+        "question": "Please come up with a suitable name for this dance.",
+        "reference answer": "Flying Apsaras"
+    },
+    {
+        "video": "舞蹈《飞天》.mp4",
+        "videoType": "art",
+        "question": "The culture that this stage performance aims to express is most closely related to which of the following religions?",
+        "reference answer": "Buddhism"
+    },
+    {
+        "video": "Lebron James.mp4",
+        "videoType": "life",
+        "question": "Which of the following athletes is the person in the video imitating?",
+        "reference answer": "Lebron James"
+    },
+    {
+        "video": "Lebron James.mp4",
+        "videoType": "life",
+        "question": "What are the funny moments in the video?",
+        "reference answer": "The humor comes from how vividly and distinctively they imitate the subject."
+    },
+    {
+        "video": "A Single Life - Oscar Nominated Animated Short.mp4",
+        "videoType": "Animation",
+        "question": "Why did the pizza in the box suddenly increase so much at 1:03?",
+        "reference answer": "Because spinning the vinyl record can reverse time."
+    },
+    {
+        "video": "A Single Life - Oscar Nominated Animated Short.mp4",
+        "videoType": "Animation",
+        "question": "What message does this video intend to convey?",
+        "reference answer": "Lesson here is to live in the present."
+    },
+    {
+        "video": "A Single Life - Oscar Nominated Animated Short.mp4",
+        "videoType": "Animation",
+        "question": "Why did a bottle suddenly appear at the end?",
+        "reference answer": "This is an urn. The woman's life comes to an end just as the record stops."
+    },
+    {
+        "video": "A Single Life - Oscar Nominated Animated Short.mp4",
+        "videoType": "Animation",
+        "question": "What does the playback progress of the vinyl record represent?",
+        "reference answer": "It represents the progression of the woman's life."
+    },
+    {
+        "video": "AFTER THE RAIN ｜ Omeleto.mp4",
+        "videoType": "Animation",
+        "question": "What kind of emotion of the sheepdog does the hill after the old man's passing symbolize?",
+        "reference answer": "The barren hill symbolizes the sheepdog's helplessness and sorrow."
+    },
+    {
+        "video": "AFTER THE RAIN ｜ Omeleto.mp4",
+        "videoType": "Animation",
+        "question": "What do the rain and its cessation in the animation symbolize?",
+        "reference answer": "The cessation of the rain symbolizes the old man's passing."
+    },
+    {
+        "video": "AFTER THE RAIN ｜ Omeleto.mp4",
+        "videoType": "Animation",
+        "question": "Please come up with a meaningful and artistically evocative title for this animation.",
+        "reference answer": "After The Rain"
+    },
+    {
+        "video": "Afternoon Class.mp4",
+        "videoType": "Animation",
+        "question": "What metaphor is conveyed by the protagonist's head transforming into a bowling ball?",
+        "reference answer": "It metaphorically suggests that the protagonist is very sleepy in class, as if his head is extremely heavy."
+    },
+    {
+        "video": "Afternoon Class.mp4",
+        "videoType": "Animation",
+        "question": "What is the effect of the film using a lot of exaggerated lines and color blending after two minutes?",
+        "reference answer": "This symbolizes that the protagonist is so sleepy that his consciousness is becoming blurred."
+    },
+    {
+        "video": "Afternoon Class.mp4",
+        "videoType": "Animation",
+        "question": "Please come up with a name for this animation that can resonate with a broader audience.",
+        "reference answer": "Afternoon Class"
+    },
+    {
+        "video": "Afternoon Class.mp4",
+        "videoType": "Animation",
+        "question": "Why is there a stream in the frame at 1:50?",
+        "reference answer": "This is actually because the boy drooled all over the table in his sleep."
+    },
+    {
+        "video": "Alike short film.mp4",
+        "videoType": "Animation",
+        "question": "Why did the boy suddenly sit down at 0:30, and what does it symbolize?",
+        "reference answer": "Because his school bag is too heavy, which symbolizes the immense academic pressure that children face in reality."
+    },
+    {
+        "video": "Alike short film.mp4",
+        "videoType": "Animation",
+        "question": "Most objects in the animation are colorless. What do the colors represent?",
+        "reference answer": "The colors symbolize individual independent thinking and creativity."
+    },
+    {
+        "video": "Alike short film.mp4",
+        "videoType": "Animation",
+        "question": "In addition to this father and son, there is one other person in the world who has color. Why is that?",
+        "reference answer": "Because he is a free-spirited musician with a passion for what he loves."
+    },
+    {
+        "video": "Alike short film.mp4",
+        "videoType": "Animation",
+        "question": "What kind of philosophy and reflection does the film intend to convey?",
+        "reference answer": "The film encourages us to maintain our unique thinking and creativity."
+    },
+    {
+        "video": "An Award-Winning Animated Journey of a War Child： THE BOX - From Playhouse to Lifeboat.mp4",
+        "videoType": "Animation",
+        "question": "What does the photo falling to the ground and the frame breaking symbolize?",
+        "reference answer": "This symbolizes a family being shattered and separated due to war."
+    },
+    {
+        "video": "An Award-Winning Animated Journey of a War Child： THE BOX - From Playhouse to Lifeboat.mp4",
+        "videoType": "Animation",
+        "question": "What role does the box, which keeps appearing in the film, play, and what does it symbolize?",
+        "reference answer": "The box evolves from a playhouse to a lifeboat, symbolizing the brutality of war and its detrimental impact on children.",
+        "false":"The box transforms from a gift into a protective shield, symbolizing the brutality of war and its adverse impact on children."
+    },
+    {
+        "video": "An Award-Winning Animated Journey of a War Child： THE BOX - From Playhouse to Lifeboat.mp4",
+        "videoType": "Animation",
+        "question": "Why doesn't the cat follow the boy as he drifts away at sea at the end?",
+        "reference answer": "This is not actually an escape, but rather a symbol that the boy has already died."
+    },
+    {
+        "video": "An Award-Winning Animated Journey of a War Child： THE BOX - From Playhouse to Lifeboat.mp4",
+        "videoType": "Animation",
+        "question": "What does the cat on the shore symbolize at the end?",
+        "reference answer": "It symbolizes what the boy loved—his home, the people he cared about."
+    },
+    {
+        "video": "An Award-Winning Animated Journey of a War Child： THE BOX - From Playhouse to Lifeboat.mp4",
+        "videoType": "Animation",
+        "question": "What role does the opening firework play in conveying the main theme?",
+        "reference answer": "The happiness during peacetime contrasts sharply with the devastation during wartime."
+    },
+    {
+        "video": "Animanimals： Giraffe.mp4",
+        "videoType": "Animation",
+        "question": "What is the moral of this little animation?",
+        "reference answer": "Treat everyone the way you want to be treated."
+    },
+    {
+        "video": "Animanimals： Giraffe.mp4",
+        "videoType": "Animation",
+        "question": "What are the advantages of the little giraffe?",
+        "reference answer": "It's more stable and less likely to be blown away by the wind."
+    },
+    {
+        "video": "Bao- The emotional story. (Oscar winning animated short film).mp4",
+        "videoType": "Animation",
+        "question": "Is the first half of the film a dream of the mother? Why?",
+        "reference answer": "Yes, it is the mother's dream because the film later shows the mother waking up."
+    },
+    {
+        "video": "Bao- The emotional story. (Oscar winning animated short film).mp4",
+        "videoType": "Animation",
+        "question": "Why would the mother take care of and cherish a little bun?",
+        "reference answer": "Because it represents her son in the dream, and her son looks very much like a bun."
+    },
+    {
+        "video": "Bao- The emotional story. (Oscar winning animated short film).mp4",
+        "videoType": "Animation",
+        "question": "What kind of psychological condition does the first half of the film aim to express about the mother?",
+        "reference answer": "It aims to convey that she is suffering from empty nest syndrome."
+    },
+    {
+        "video": "Bao- The emotional story. (Oscar winning animated short film).mp4",
+        "videoType": "Animation",
+        "question": "Why does the little bun wear a suit and go to work at 1:32?",
+        "reference answer": "It represents the son in the mother's dream, mirroring his appearance in reality."
+    },
+    {
+        "video": "Bao- The emotional story. (Oscar winning animated short film).mp4",
+        "videoType": "Animation",
+        "question": "Is the blonde woman who appears after 1:40 portrayed as an arrogant and unpleasant character?",
+        "reference answer": "No, it's a psychological projection of the mother's worry that her son might encounter bad people."
+    },
+    {
+        "video": "Bent Out of Shape ｜ Official Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "The shapes of the two houses are quite different. What does the round shape symbolize?",
+        "reference answer": "Circle shapes represent freedom and an open mindset."
+    },
+    {
+        "video": "Bent Out of Shape ｜ Official Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "The film uses starkly different lighting to depict the two families. The environment of the square-shaped family conveys a particular atmosphere.",
+        "reference answer": "Dominantly in dark purple, it creates an atmosphere of gloominess and obsessiveness."
+    },
+    {
+        "video": "Bent Out of Shape ｜ Official Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "At the end, the square-shaped girl changes her form, but her color remains the same. What does this symbolize?",
+        "reference answer": "It symbolizes that one can improve oneself without completely changing who they are."
+    },
+    {
+        "video": "Bent Out of Shape ｜ Official Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "There are two different breakfasts on the table. What do each of the breakfasts symbolize?",
+        "reference answer": "The burnt one symbolizes that the man's life has already taken its course, while the intact one represents that the girl's life is just beginning."
+    },
+    {
+        "video": "Bent Out of Shape ｜ Official Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "The film uses completely different lighting and tones when depicting the man and the girl together. What does this symbolize?",
+        "reference answer": "The daughter brings joy and hope into the man's life; she is someone he loves dearly."
+    },
+    {
+        "video": "CGI Animated Short Film HD ＂Reflexion ＂ by Planktoon ｜ CGMeetup.mp4",
+        "videoType": "Animation",
+        "question": "What kind of social issue does this animation aim to reflect?",
+        "reference answer": "This animated short reflects women's anxieties about their body shapes and appearances."
+    },
+    {
+        "video": "CGI Animated Short Film HD ＂Reflexion ＂ by Planktoon ｜ CGMeetup.mp4",
+        "videoType": "Animation",
+        "question": "Please come up with a clever and fitting title for this animation.",
+        "reference answer": "Reflexion"
+    },
+    {
+        "video": "Classical Chinese dance 'Bells Ringing in the Rain' by Tang Shiyi ｜ 舞蹈：唐诗逸《雨霖铃》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "Which of the following dynasties is this dance most likely to reflect in its story?",
+        "reference answer": "The Northern Song Dynasty"
+    },
+    {
+        "video": "Classical Chinese dance 'Bells Ringing in the Rain' by Tang Shiyi ｜ 舞蹈：唐诗逸《雨霖铃》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "What emotions does this dance convey from the protagonist?",
+        "reference answer": "It expresses the female protagonist's longing and the pain of parting."
+    },
+    {
+        "video": "Classical Chinese dance 'Bells Ringing in the Rain' by Tang Shiyi ｜ 舞蹈：唐诗逸《雨霖铃》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "How does the elaborate and beautiful stage setting contribute to the emotional expression?",
+        "reference answer": "The enchanting scenery, coupled with the absence of a loved one, intensifies the longing in one's heart."
+    },
+    {
+        "video": "Classical Chinese dance 'Resonant Sounds' by Tang Shiyi ｜ 舞蹈：唐诗逸《鸿音》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "Which of the following cultures is this dance most likely to reflect?",
+        "reference answer": "The ancient Kucha culture"
+    },
+    {
+        "video": "Classical Chinese dance 'Resonant Sounds' by Tang Shiyi ｜ 舞蹈：唐诗逸《鸿音》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "If we were to compose music for this dance, which of the following instruments would be the most suitable?",
+        "reference answer": "The pipa"
+    },
+    {
+        "video": "Classical Chinese dance 'Resonant Sounds' by Tang Shiyi ｜ 舞蹈：唐诗逸《鸿音》｜ CNODDT.mp4",
+        "videoType": "art",
+        "question": "Please come up with a name for this dance that carries cultural significance.",
+        "reference answer": "Resonant Sounds"
+    },
+    {
+        "video": "Cordas- Cuerdas⧸Dublado Português.mp4",
+        "videoType": "Animation",
+        "question": "The effect of using blue-violet lighting around the 6:50 mark in the film.",
+        "reference answer": "It creates a dreamlike and beautiful scene that the two characters might imagine."
+    },
+    {
+        "video": "Cordas- Cuerdas⧸Dublado Português.mp4",
+        "videoType": "Animation",
+        "question": "What is the main message that this animation aims to convey?",
+        "reference answer": "It celebrates friendship, bringing love and joy to the disabled boy."
+    },
+    {
+        "video": "Dimanche.mp4",
+        "videoType": "Animation",
+        "question": "What does the bear sticking its head out of the wall symbolize?",
+        "reference answer": "It represents the creative and imaginative companion conjured up by the little boy in his mind."
+    },
+    {
+        "video": "Dimanche.mp4",
+        "videoType": "Animation",
+        "question": "What are the characteristics of the overall color tone of the animation, and what does it symbolize?",
+        "reference answer": "It is gray, representing people's loss of imagination and their monotonous, routine lives."
+    },
+    {
+        "video": "DISTRACTION ｜ One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "What implicit message does the opening aerial shot convey to the audience?",
+        "reference answer": "The scattered art supplies indicate that the man's interests, hobbies, and dreams are related to painting."
+    },
+    {
+        "video": "DISTRACTION ｜ One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "What is the effect of the opening shot zooming in to focus directly on the man's face?",
+        "reference answer": "It symbolizes that the man is engaging in deep reflection and introspection."
+    },
+    {
+        "video": "DISTRACTION ｜ One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "Are the scenes of the man on the beach and the grassland real? Why?",
+        "reference answer": "These are fantasies that the man has while holding his breath with his eyes closed in the bathtub."
+    },
+    {
+        "video": "DISTRACTION ｜ One Minute Film Competition by Sony Indonesia.mp4",
+        "videoType": "movie",
+        "question": "Please come up with a title for this film that has a cautionary and thought-provoking meaning.",
+        "reference answer": "Distraction"
+    },
+    {
+        "video": "EL EMPLEO.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following statements can better explain the social reality expressed in this animation?",
+        "reference answer": "We are all working for others without realizing it due to our own needs."
+    },
+    {
+        "video": "EL EMPLEO.mp4",
+        "videoType": "Animation",
+        "question": "At which plot point does the absurdity and impact of the animation reach its climax?",
+        "reference answer": "The protagonist, dressed in a suit and served by others, ends up with the job of being a carpet."
+    },
+    {
+        "video": "Fast Week.mp4",
+        "videoType": "Animation",
+        "question": "What social issue does the second segment of the animation reflect?",
+        "reference answer": "It reflects the stereotypical demands and misunderstandings that society places on women."
+    },
+    {
+        "video": "Fast Week.mp4",
+        "videoType": "Animation",
+        "question": "What social appeal does the third segment express?",
+        "reference answer": "The creator hopes to call on people not to waste food."
+    },
+    {
+        "video": "Fast Week.mp4",
+        "videoType": "Animation",
+        "question": "The fifth segment of the animation is both laughable and absurd. What social issue might it reflect?",
+        "reference answer": "It reflects social hierarchy. Despite an infinite supply, hunger still exists."
+    },
+    {
+        "video": "Hong Kong 8K HDR.mp4",
+        "videoType": "life",
+        "question": "Which city is this vlog most likely filmed in?",
+        "reference answer": "Hong Kong"
+    },
+    {
+        "video": "Hong Kong 8K HDR.mp4",
+        "videoType": "life",
+        "question": "What techniques does the video use to portray the city's diversity and vibrancy?",
+        "reference answer": "The contrast between ancient and modern architecture, as well as the vitality of the people in the foreground."
+    },
+    {
+        "video": "Identity SHORT FILM (Award Winning Inspirational Short).mp4",
+        "videoType": "movie",
+        "question": "What implicit meaning can be conveyed by the opening scene of the girl facing the mirror?",
+        "reference answer": "It symbolizes her inner self-reflection and the transformation of her self-awareness."
+    },
+    {
+        "video": "Identity SHORT FILM (Award Winning Inspirational Short).mp4",
+        "videoType": "movie",
+        "question": "What kind of narrative sequence does the film employ?",
+        "reference answer": "The film uses a narrative structure that begins with a flashback and then proceeds in chronological order."
+    },
+    {
+        "video": "Identity SHORT FILM (Award Winning Inspirational Short).mp4",
+        "videoType": "movie",
+        "question": "Why do all eyes converge on the girl at the end of the film?",
+        "reference answer": "Because the girl takes off her mask, which is quite exceptional."
+    },
+    {
+        "video": "Identity SHORT FILM (Award Winning Inspirational Short).mp4",
+        "videoType": "movie",
+        "question": "What kind of main idea might this short film convey?",
+        "reference answer": "To break free from the conventions and hypocrisy, and to be true to oneself."
+    },
+    {
+        "video": "Identity SHORT FILM (Award Winning Inspirational Short).mp4",
+        "videoType": "movie",
+        "question": "Please describe this girl using two adjectives.",
+        "reference answer": "Brave and free."
+    },
+    {
+        "video": "Indonesia.mp4",
+        "videoType": "life",
+        "question": "Which country is this video most likely filmed in?",
+        "reference answer": "Indonesia"
+    },
+    {
+        "video": "Indonesia.mp4",
+        "videoType": "life",
+        "question": "Which of the following devices is this film most likely shot with?",
+        "reference answer": "FPV Drone"
+    },
+    {
+        "video": "Inside Out 2 ｜ Official Trailer.mp4",
+        "videoType": "Animation",
+        "question": "What is the purpose of the control console where these colorful figures are located?",
+        "reference answer": "This control console is used to manipulate the emotions of the girl protagonist."
+    },
+    {
+        "video": "Inside Out 2 ｜ Official Trailer.mp4",
+        "videoType": "Animation",
+        "question": "What does the green sprite in the animation represent?",
+        "reference answer": "It represents the protagonist's feelings of disgust."
+    },
+    {
+        "video": "Inside Out 2 ｜ Official Trailer.mp4",
+        "videoType": "Animation",
+        "question": "What does the pink, large, chunky figure in the film represent?",
+        "reference answer": "He represents the protagonist's feelings of embarrassment."
+    },
+    {
+        "video": "introverts shopping.mp4",
+        "videoType": "humor",
+        "question": "Please summarize the content of this short film in one brief sentence.",
+        "reference answer": "introverts going for shopping"
+    },
+    {
+        "video": "introverts shopping.mp4",
+        "videoType": "humor",
+        "question": "Why does the boy seem to really like the shoes but leave without buying them?",
+        "reference answer": "Because he is introverted, and the interaction made him feel very embarrassed."
+    },
+    {
+        "video": "introverts shopping.mp4",
+        "videoType": "humor",
+        "question": "Where is the humor in this short video?",
+        "reference answer": "It humorously and exaggeratedly portrays the inner thoughts of an introverted person while shopping."
+    },
+    {
+        "video": "KASET PITA ｜ Juara 1 Film Pendek FLS2N 2024 Tingkat Nasional - SMAS BPK Penabur Bandar Lampung.mp4",
+        "videoType": "movie",
+        "question": "Why is the boy so frustrated in the first half of the film?",
+        "reference answer": "Because he frequently receives negative comments from social media users."
+    },
+    {
+        "video": "KASET PITA ｜ Juara 1 Film Pendek FLS2N 2024 Tingkat Nasional - SMAS BPK Penabur Bandar Lampung.mp4",
+        "videoType": "movie",
+        "question": "What inspired the boy to create a video that was widely praised?",
+        "reference answer": "He was inspired by a tip from his late father and used Serdam to create the video."
+    },
+    {
+        "video": "KASET PITA ｜ Juara 1 Film Pendek FLS2N 2024 Tingkat Nasional - SMAS BPK Penabur Bandar Lampung.mp4",
+        "videoType": "movie",
+        "question": "Please come up with a title for this short film using key elements from the video.",
+        "reference answer": "KASET PITA"
+    },
+    {
+        "video": "Kite festival in China.mp4",
+        "videoType": "life",
+        "question": "Which of the following festivals might this video be documenting?",
+        "reference answer": "Kite festival"
+    },
+    {
+        "video": "Let's Eat - Award Winning Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "The video uses a central element to convey emotion. Please come up with a suitable title for the animation.",
+        "reference answer": "Let's Eat"
+    },
+    {
+        "video": "Let's Eat - Award Winning Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "The segment beginning at 3:00 implicitly portrays what aspect of the mother-daughter relationship?",
+        "reference answer": "As the daughter grows up, the mother and daughter drift apart and their relationship becomes distant."
+    },
+    {
+        "video": "Let's Eat - Award Winning Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "What does the creator hope to call on the audience to do through this animation?",
+        "reference answer": "To cherish the love of one's mother and not to regret it only after it's gone."
+    },
+    {
+        "video": "Memorial - Film Pendek Tentang Kekerasan Dalam Rumah Tangga.mp4",
+        "videoType": "movie",
+        "question": "What real-world issue does this film primarily aim to reflect?",
+        "reference answer": "It aims to reflect the issue of domestic violence and calls for its prevention."
+    },
+    {
+        "video": "Memorial - Film Pendek Tentang Kekerasan Dalam Rumah Tangga.mp4",
+        "videoType": "movie",
+        "question": "What is the purpose of the recurring scenes of playing the guitar in the film?",
+        "reference answer": "It connects the story, seemingly light-hearted but actually contrasting the heavy issue."
+    },
+    {
+        "video": "Message ｜ 1 minute short film ｜ #shortfilm.mp4",
+        "videoType": "humor",
+        "question": "Why does the man repeatedly delete and revise the text message when editing it?",
+        "reference answer": "He is messaging his crush and is constantly trying to phrase it just right."
+    },
+    {
+        "video": "Message ｜ 1 minute short film ｜ #shortfilm.mp4",
+        "videoType": "humor",
+        "question": "Why does the man end up dropping his phone and shaking his head in the end?",
+        "reference answer": "He thought he received a reply from his crush, but it turned out to be a message notifying him of insufficient phone balance."
+    },
+    {
+        "video": "Message ｜ 1 minute short film ｜ #shortfilm.mp4",
+        "videoType": "humor",
+        "question": "Where does the humor in this video lie?",
+        "reference answer": "He anxiously waits for a reply from crush, only to receive a message about insufficient balance."
+    },
+    {
+        "video": "NAPO ｜ ＊Award-Winning＊ Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "What is the purpose of the little boy's drawing?",
+        "reference answer": "To reinterpret old photos through drawings to help the elderly regain their memories."
+    },
+    {
+        "video": "NAPO ｜ ＊Award-Winning＊ Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "What condition does the elderly person in the animation have?",
+        "reference answer": "He has Alzheimer's disease."
+    },
+    {
+        "video": "NAPO ｜ ＊Award-Winning＊ Animated Short Film.mp4",
+        "videoType": "Animation",
+        "question": "Why does the lighting in the house become dim at the end of the film?",
+        "reference answer": "It implies the passing of the elderly person, creating a somber atmosphere."
+    },
+    {
+        "video": "New Year Celebration in China.mp4",
+        "videoType": "life",
+        "question": "Which of the following holidays is most likely being celebrated in the video?",
+        "reference answer": "Chinese New Year"
+    },
+    {
+        "video": "Now You See Me 2： Hiding the playing card with the chip.mp4",
+        "videoType": "movie",
+        "question": "At 3:09, why does the man pat the security guard on the back?",
+        "reference answer": "He does this to pass on the card that the woman handed to him."
+    },
+    {
+        "video": "Now You See Me 2： Hiding the playing card with the chip.mp4",
+        "videoType": "movie",
+        "question": "Why does the man with glasses at the end of the film strike a metal plate?",
+        "reference answer": "To cover up the alarm sound from the card passing through the security scanner."
+    },
+    {
+        "video": "Now You See Me 2： Hiding the playing card with the chip.mp4",
+        "videoType": "movie",
+        "question": "Why does the man in the top hat suddenly start dancing?",
+        "reference answer": "He reached too abruptly while picking up the card and tried to cover up the mistake."
+    },
+    {
+        "video": "Phone addiction today ｜ ＂Life Smartphone＂ - Short Film by Chenglin Xie ｜ Student Academy Award.mp4",
+        "videoType": "Animation",
+        "question": "What social situation does this film reflect?",
+        "reference answer": "People are addicted to their phones and constantly connected to the virtual network."
+    },
+    {
+        "video": "Phone addiction today ｜ ＂Life Smartphone＂ - Short Film by Chenglin Xie ｜ Student Academy Award.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following quotes best reflects the sentiment of this animation?",
+        "reference answer": "'We live in an age when Unnecessary things are our only necessities.' - Oscar Wilde"
+    },
+    {
+        "video": "Phone addiction today ｜ ＂Life Smartphone＂ - Short Film by Chenglin Xie ｜ Student Academy Award.mp4",
+        "videoType": "Animation",
+        "question": "Please suggest a suitable title for this animation.",
+        "reference answer": "Life Smartphone"
+    },
+    {
+        "video": "Resilience： Anticipate, organise, adapt.mp4",
+        "videoType": "Animation",
+        "question": "The purpose of this animation is to introduce which of the following terms?",
+        "reference answer": "Resilience"
+    },
+    {
+        "video": "Resilience： Anticipate, organise, adapt.mp4",
+        "videoType": "Animation",
+        "question": "The scene around 1:00 metaphorically represents what aspect of communities?",
+        "reference answer": "Communities can build their resilience to setbacks by working together and adapting to new challenges."
+    },
+    {
+        "video": "Resilience： Anticipate, organise, adapt.mp4",
+        "videoType": "Animation",
+        "question": "In what kind of scenario could this animation be applicable?",
+        "reference answer": "It can be used to discussions about the meaning of ‘resilience’ in international development."
+    },
+    {
+        "video": "Sacred Valley ｜ PERU.mp4",
+        "videoType": "life",
+        "question": "This video is most likely filmed in which of the following countries?",
+        "reference answer": "Peru."
+    },
+    {
+        "video": "Sacred Valley ｜ PERU.mp4",
+        "videoType": "life",
+        "question": "What type of dance is featured in the short film?",
+        "reference answer": "Wallata & Qhapaq Qulla dances"
+    },
+    {
+        "video": "Sacred Valley ｜ PERU.mp4",
+        "videoType": "life",
+        "question": "Around the 2:39 mark, what is the craftsman doing with the clay?",
+        "reference answer": "He is creating a Pucara bull sculpture, which symbolizes good fortune."
+    },
+    {
+        "video": "Sacred Valley ｜ PERU.mp4",
+        "videoType": "life",
+        "question": "Please speculate about the scene captured in the overhead shot at 1:09.",
+        "reference answer": "It is Salt Mines of Maras."
+    },
+    {
+        "video": "Salt in their Veins ｜ Full Award-Winning Documentary.mp4",
+        "videoType": "life",
+        "question": "The film highlights the negative impact that the current fishing practices of the locals may have on the future.",
+        "reference answer": "It suggests that their actions are putting the health of the coral reefs at risk and leaving their future uncertain."
+    },
+    {
+        "video": "Salt in their Veins ｜ Full Award-Winning Documentary.mp4",
+        "videoType": "life",
+        "question": "Based on the appearance of the locals and the environment, please speculate on the most likely filming location of this video.",
+        "reference answer": "Southeast Sulawesi, Indonesia."
+    },
+    {
+        "video": "Some Thing.mp4",
+        "videoType": "Animation",
+        "question": "What does the mountain with the golden crown symbolize?",
+        "reference answer": "It symbolizes the rare metal mines in real life."
+    },
+    {
+        "video": "Some Thing.mp4",
+        "videoType": "Animation",
+        "question": "Who does the creator hope to inspire through this video?",
+        "reference answer": "The viewers who feel insignificant."
+    },
+    {
+        "video": "Some Thing.mp4",
+        "videoType": "Animation",
+        "question": "What in nature does this small hill represent?",
+        "reference answer": "It represents a mountain in nature that is composed of soil and earth."
+    },
+    {
+        "video": "The Angler (2018) 단편 애니메이션 ｜ Animated Short Film (Full).mp4",
+        "videoType": "Animation",
+        "question": "What does the bait that the fish eats in the film symbolize?",
+        "reference answer": "It represents a memory from his past, one that he wasn't ready to let go of."
+    },
+    {
+        "video": "The Angler (2018) 단편 애니메이션 ｜ Animated Short Film (Full).mp4",
+        "videoType": "Animation",
+        "question": "Please suggest an appropriate title for this animation.",
+        "reference answer": "The Angler"
+    },
+    {
+        "video": "The Balcony (CalArts  Film 2022).mp4",
+        "videoType": "Animation",
+        "question": "Animations often have a core visual element that helps convey the main theme. What is that element in this film?",
+        "reference answer": "The Balcony."
+    },
+    {
+        "video": "The Balcony (CalArts  Film 2022).mp4",
+        "videoType": "Animation",
+        "question": "Please identify the most significant visual conflict and contrast in this animation.",
+        "reference answer": "The starkly different lighting and atmosphere behind the man and the girl on the balcony."
+    },
+    {
+        "video": "The Balcony (CalArts  Film 2022).mp4",
+        "videoType": "Animation",
+        "question": "What is the man most likely thinking when he looks at the pizza and the key?",
+        "reference answer": "He might be contemplating whether to bring the pizza to the party to find the girl and share love and joy with her."
+    },
+    {
+        "video": "The Balcony (CalArts  Film 2022).mp4",
+        "videoType": "Animation",
+        "question": "What does the camera language imply when the shot pulls back at the end?",
+        "reference answer": "The man ultimately does not go to the party, which enhances his sense of loneliness."
+    },
+    {
+        "video": "The Colours of China - Cinematic Short Film ｜ vivo X200 Pro.mp4",
+        "videoType": "life",
+        "question": "Speculate which city in China the opening scene with the bamboo raft might be set in.",
+        "reference answer": "Guilin."
+    },
+    {
+        "video": "The Colours of China - Cinematic Short Film ｜ vivo X200 Pro.mp4",
+        "videoType": "life",
+        "question": "The film uses five colors—red, green, yellow, white, and black—to introduce China. What traditional Chinese culture do these colors correspond to?",
+        "reference answer": "These colors actually correspond to the five elements of metal, wood, water, fire, and earth in traditional Chinese culture."
+    },
+    {
+        "video": "The Story of Sugar!.mp4",
+        "videoType": "Animation",
+        "question": "The author hopes to appeal to something through this video.",
+        "reference answer": "The author hopes to call on people to pay attention to their sugar intake and live a healthy life."
+    },
+    {
+        "video": "The Stress Bucket.mp4",
+        "videoType": "philosophy",
+        "question": "What does the small pipe extending from the barrel represent?",
+        "reference answer": "The seemingly stress-relieving but actually ineffective method of drinking alcohol."
+    },
+    {
+        "video": "The Stress Bucket.mp4",
+        "videoType": "philosophy",
+        "question": "What is the metaphor conveyed by the scene around 2:03?",
+        "reference answer": "You can seek help from family or friends to relieve stress."
+    },
+    {
+        "video": "The Stress Bucket.mp4",
+        "videoType": "philosophy",
+        "question": "What does the bucket appearing in the video symbolize?",
+        "reference answer": "It represents your ability to cope with stress."
+    },
+    {
+        "video": "The Stress Bucket.mp4",
+        "videoType": "philosophy",
+        "question": "What does the water appearing in the animation represent?",
+        "reference answer": "The water represents the combination of stress in life."
+    },
+    {
+        "video": "The Stress Bucket.mp4",
+        "videoType": "philosophy",
+        "question": "What is the overall message that the animation aims to convey?",
+        "reference answer": "The animation aims to vividly illustrate the nature of stress and the ways to relieve it."
+    },
+    {
+        "video": "The Sufi Path.mp4",
+        "videoType": "philosophy",
+        "question": "The film conveys the core of which of the following ideas and ideologies?",
+        "reference answer": "Sufism "
+    },
+    {
+        "video": "The Sufi Path.mp4",
+        "videoType": "philosophy",
+        "question": "What is the main theme emphasized in this movie?",
+        "reference answer": "A Film that emphasises personal devotion to God and a spiritual path focused on love, compassion and interfaith harmony through the Sufi Movement."
+    },
+    {
+        "video": "The Sufi Path.mp4",
+        "videoType": "philosophy",
+        "question": "Please select the most appropriate title for this film.",
+        "reference answer": "The Sufi Path"
+    },
+    {
+        "video": "This is Shanghai, China, not Manhattan, USA.mp4",
+        "videoType": "life",
+        "question": "The cluster of buildings that appears around 0:04 in the film is most likely which of the following?",
+        "reference answer": "Exotic building clusters"
+    },
+    {
+        "video": "This is Shanghai, China, not Manhattan, USA.mp4",
+        "videoType": "life",
+        "question": "Can you speculate which city is depicted in the film?",
+        "reference answer": "Shanghai"
+    },
+    {
+        "video": "To be Woman.mp4",
+        "videoType": "movie",
+        "question": "The concept that the film is most likely trying to convey is...?",
+        "reference answer": "The concept most likely conveyed is that of women's freedom and empowerment."
+    },
+    {
+        "video": "To be Woman.mp4",
+        "videoType": "movie",
+        "question": "Come up with a name for this short film that best captures its theme.",
+        "reference answer": "To be Woman"
+    },
+    {
+        "video": "Un homme découvrant son reflet ＂enfant＂ dans un miroir (danse contemporaine)- S'adopter Soi.mp4",
+        "videoType": "art",
+        "question": "What is the child in the mirror at the beginning of the film?",
+        "reference answer": "It is the man himself in his childhood, looking into the mirror."
+    },
+    {
+        "video": "Un homme découvrant son reflet ＂enfant＂ dans un miroir (danse contemporaine)- S'adopter Soi.mp4",
+        "videoType": "art",
+        "question": "What implicit meaning does this dance intend to express?",
+        "reference answer": "Embrace the child within you, and care for and love yourself."
+    },
+    {
+        "video": "Un homme découvrant son reflet ＂enfant＂ dans un miroir (danse contemporaine)- S'adopter Soi.mp4",
+        "videoType": "art",
+        "question": "What does the man looking into the mirror symbolize?",
+        "reference answer": "Gazing into the mirror symbolizes introspection and contemplation of one's inner self."
+    },
+    {
+        "video": "Un homme découvrant son reflet ＂enfant＂ dans un miroir (danse contemporaine)- S'adopter Soi.mp4",
+        "videoType": "art",
+        "question": "What does the man looking into the mirror symbolize?",
+        "reference answer": "Gazing into the mirror symbolizes introspection and contemplation of one's inner self."
+    },
+    {
+        "video": "WAKTU ｜ FILM PENDEK ANTI KORUPSI SMP NEGERI 2 BALONGBENDO.mp4",
+        "videoType": "movie",
+        "question": "What is the main theme that this short film intends to convey?",
+        "reference answer": "Corruption is not just about money; wasting time is also a form of corruption."
+    },
+    {
+        "video": "WAKTU ｜ FILM PENDEK ANTI KORUPSI SMP NEGERI 2 BALONGBENDO.mp4",
+        "videoType": "movie",
+        "question": "What does the short film want to call on people to do?",
+        "reference answer": "Say no to corruption starting from the smallest things."
+    },
+    {
+        "video": "We forget who we are.mp4",
+        "videoType": "Animation",
+        "question": "What kind of appeal does the author hope to express through this video?",
+        "reference answer": "The hope is to call on people to put down their phones and experience the beauty around them."
+    },
+    {
+        "video": "We forget who we are.mp4",
+        "videoType": "Animation",
+        "question": "The contrast in lighting between the beginning and the end of the film serves what purpose?",
+        "reference answer": "It implies that by breaking free from the shackles of smartphones, one can embrace the world and enjoy a sense of freedom."
+    },
+    {
+        "video": "When You're Bad at Math But Good at Art (DANS & SNAD 17.5) Credit： @KRED.mp4",
+        "videoType": "humor",
+        "question": "Why did the boy in the audience raise two fingers?",
+        "reference answer": "He was signaling to the student on stage that the answer to the question was “two.”"
+    },
+    {
+        "video": "When You're Bad at Math But Good at Art (DANS & SNAD 17.5) Credit： @KRED.mp4",
+        "videoType": "humor",
+        "question": "What is the punchline or humorous element of this video?",
+        "reference answer": "The funny part is that he drew the entire person who was giving the hint onto the blackboard."
+    },
+    {
+        "video": "When You're Bad at Math But Good at Art (DANS & SNAD 17.5) Credit： @KRED.mp4",
+        "videoType": "humor",
+        "question": "Come up with a funny title for this video.",
+        "reference answer": "When You're Bad at Math But Good at Art"
+    },
+    {
+        "video": "Widdershins ｜ Animated short film by Simon Biggs.mp4",
+        "videoType": "Animation",
+        "question": "What does the gear at the beginning of the short film symbolize?",
+        "reference answer": "It symbolizes the protagonist's meticulously programmed and routine-driven life."
+    },
+    {
+        "video": "Widdershins ｜ Animated short film by Simon Biggs.mp4",
+        "videoType": "Animation",
+        "question": "What is the main message that this short film wants to convey?",
+        "reference answer": "Romance and love can break through the shackles of monotony."
+    },
+    {
+        "video": "Widdershins ｜ Animated short film by Simon Biggs.mp4",
+        "videoType": "Animation",
+        "question": "What does the change in the man's clothing and appearance from the beginning to the end of the film imply?",
+        "reference answer": "His life has changed because he chose to pursue a free and uninhibited love."
+    },
+    {
+        "video": "Yellow Cake - Animated Short Film (HD remastered).mp4",
+        "videoType": "Animation",
+        "question": "What do the mice in the first scene symbolize?",
+        "reference answer": "They represent the life of a small country that follows a conventional cultural lifestyle."
+    },
+    {
+        "video": "Yellow Cake - Animated Short Film (HD remastered).mp4",
+        "videoType": "Animation",
+        "question": "What does the arrival of the cat later on symbolize?",
+        "reference answer": "The arrival and attack of the cat symbolize foreign colonization and the quest to expand its influence."
+    },
+    {
+        "video": "Yellow Cake - Animated Short Film (HD remastered).mp4",
+        "videoType": "Animation",
+        "question": "What does the moment of channel switching in the final scene symbolize?",
+        "reference answer": "It represents how media shows war and conflict, but we consider it an everyday occurence and ignore it."
+    },
+    {
+        "video": "Yellow Cake - Animated Short Film (HD remastered).mp4",
+        "videoType": "Animation",
+        "question": "What political issues did the film intend to express when it was first released in 2003?",
+        "reference answer": "It was a reaction to the geopolitical situation at the time."
+    },
+    {
+        "video": "Yellow Cake - Animated Short Film (HD remastered).mp4",
+        "videoType": "Animation",
+        "question": "What does the provision of resources by the mayor, which were not available on the cat's original land, symbolize?",
+        "reference answer": "Representing the beginning of trade and commerce, as well as the humiliation of ceding resources."
+    }
+]

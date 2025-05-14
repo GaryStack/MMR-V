@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>题目作答</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .option { margin: 5px 0; }
+    video { display: block; margin-bottom: 20px; }
+    .nav-buttons { margin-top: 20px; }
+    .nav-buttons button { margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <div id="questionContainer"></div>
+  <div class="nav-buttons">
+    <button id="prevBtn">上一题</button>
+    <button id="nextBtn">下一题</button>
+  </div>
+  
+  <script>
+    let questions = [];
+    // 从 URL 获取查询参数 id
+    function getQueryParam(param) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(param);
+    }
+    const qIndex = parseInt(getQueryParam('id'));
+    let currentIndex = qIndex;
+    
+    // 加载 JSON 文件
+    fetch('questions.json')
+      .then(response => response.json())
+      .then(data => {
+        questions = data;
+        renderQuestion();
+      })
+      .catch(error => console.error("加载题目失败：", error));
+    
+    // 渲染题目
+    function renderQuestion(){
+      const container = document.getElementById('questionContainer');
+      container.innerHTML = '';
+      if(currentIndex < 0 || currentIndex >= questions.length) return;
+      const q = questions[currentIndex];
+      
+      // 显示视频
+      const videoEl = document.createElement('video');
+      videoEl.src = '/netdisk/zhukejian/implicit_video_anonotations/static/videos' + q.video;
+      videoEl.controls = true;
+      videoEl.width = 480;
+      container.appendChild(videoEl);
+      
+      // 显示题干
+      const questionText = document.createElement('h2');
+      questionText.textContent = q.question;
+      container.appendChild(questionText);
+      
+      // 显示选项，每个选项带单选按钮
+      const form = document.createElement('form');
+      q.options.forEach((opt, idx) => {
+          const div = document.createElement('div');
+          div.className = 'option';
+          const radio = document.createElement('input');
+          radio.type = 'radio';
+          radio.name = 'answer';
+          // 提取选项字母，比如 "(A)" 得到 A
+          let optionLetterMatch = opt.match(/^\((.)\)/);
+          let optionLetter = optionLetterMatch ? optionLetterMatch[1] : '';
+          radio.value = optionLetter;
+          // 如果已答题，则预先选中
+          const savedAnswers = JSON.parse(localStorage.getItem('answers') || '{}');
+          if(savedAnswers[currentIndex] === optionLetter) {
+              radio.checked = true;
+          }
+          const label = document.createElement('label');
+          label.textContent = opt;
+          div.appendChild(radio);
+          div.appendChild(label);
+          form.appendChild(div);
+      });
+      container.appendChild(form);
+      
+      // 选项变动时保存答案到 localStorage
+      form.addEventListener('change', function(){
+          const selected = form.answer.value;
+          saveAnswer(currentIndex, selected);
+      });
+      
+      // 设置上一题、下一题按钮显示状态
+      document.getElementById('prevBtn').style.display = (currentIndex > 0) ? 'inline-block' : 'none';
+      document.getElementById('nextBtn').style.display = (currentIndex < questions.length - 1) ? 'inline-block' : 'none';
+      
+      document.getElementById('prevBtn').onclick = function(){
+          saveCurrentSelection();
+          window.location.href = 'question.html?id=' + (currentIndex - 1);
+      };
+      
+      document.getElementById('nextBtn').onclick = function(){
+          saveCurrentSelection();
+          window.location.href = 'question.html?id=' + (currentIndex + 1);
+      };
+    }
+    
+    // 保存当前题目的答案
+    function saveAnswer(index, answer) {
+      let savedAnswers = JSON.parse(localStorage.getItem('answers') || '{}');
+      savedAnswers[index] = answer;
+      localStorage.setItem('answers', JSON.stringify(savedAnswers));
+    }
+    
+    // 保存当前选中项（防止用户没触发 change 事件时没有保存）
+    function saveCurrentSelection(){
+      const form = document.querySelector('form');
+      if(form && form.answer.value) {
+          saveAnswer(currentIndex, form.answer.value);
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>题目列表</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .question-list { list-style: none; padding: 0; }
+    .question-list li { margin: 10px 0; }
+    .pagination { margin-top: 20px; }
+    .pagination button { margin: 0 5px; }
+    button.submit { margin-top: 20px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>题目列表</h1>
+  <ul id="questionList" class="question-list"></ul>
+  <div id="pagination" class="pagination"></div>
+  <button class="submit" onclick="submitQuiz()">交卷</button>
+  
+  <script>
+    // 全局变量
+    let questions = [];
+    let currentPage = 1;
+    const perPage = 10;
+    
+    // 加载 JSON 文件
+    fetch('questions.json')
+      .then(response => response.json())
+      .then(data => {
+        questions = data;
+        renderPage(currentPage);
+      })
+      .catch(error => console.error("加载题目失败：", error));
+    
+    // 渲染当前分页页面
+    function renderPage(page) {
+      const listEl = document.getElementById('questionList');
+      listEl.innerHTML = '';
+      const start = (page - 1) * perPage;
+      const end = Math.min(start + perPage, questions.length);
+      for(let i = start; i < end; i++){
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = 'question.html?id=' + i;
+        // 显示题号和题干
+        link.textContent = '题目 ' + (i + 1) + ': ' + questions[i].question;
+        li.appendChild(link);
+        listEl.appendChild(li);
+      }
+      renderPagination(page);
+    }
+    
+    // 渲染分页按钮
+    function renderPagination(page) {
+      const paginationEl = document.getElementById('pagination');
+      paginationEl.innerHTML = '';
+      const totalPages = Math.ceil(questions.length / perPage);
+      if(page > 1) {
+        const prevBtn = document.createElement('button');
+        prevBtn.textContent = '上一页';
+        prevBtn.onclick = () => { currentPage--; renderPage(currentPage); };
+        paginationEl.appendChild(prevBtn);
+      }
+      if(page < totalPages) {
+        const nextBtn = document.createElement('button');
+        nextBtn.textContent = '下一页';
+        nextBtn.onclick = () => { currentPage++; renderPage(currentPage); };
+        paginationEl.appendChild(nextBtn);
+      }
+    }
+    
+    // 交卷，跳转到结果页面
+    function submitQuiz() {
+      window.location.href = "result.html";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+<script>
+    $(document).ready(function () {
+        // 获取后端传递的标注数据
+        // const annotations = {{ annotations | tojson }};
+
+        // // 渲染标注数据到表格
+        // annotations.forEach(annotation => {
+        //     const video = annotation.video;
+        //     const row = $(tr:has(video[source$="${video}"]));
+        //     if (row.length) {
+        //         // 填充备注和视频类型
+        //         row.find('.remark').val(annotation.remark || '');
+        //         row.find('.video-type').val(annotation.videoType || 'other');
+                
+        //         // 渲染问题列表
+        //         const questionList = row.find('.question-preview');
+        //         annotation.questions.forEach((questionData, index) => {
+        //             appendQuestionToList(questionList, questionData, index);
+        //         });
+        //     }
+        // });
+        $('#downloadVideoBtn').click(function () {
+            const videoUrl = $('#videoUrlInput').val().trim();
+
+            if (!videoUrl) {
+                alert("请输入有效的视频 URL！");
+                return;
+            }
+
+            // 发送下载请求到后端
+            $.ajax({
+                url: '/download_video', // 后端处理视频下载的路由
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ url: videoUrl }),
+                success: function (response) {
+                    if (response.success) {
+                        alert("视频下载成功！");
+                        // 动态更新表格
+                        const newRowHtml = 
+                            <tr>
+                                <td>
+                                    <video controls>
+                                        <source src="/videos/${response.video}" type="video/mp4">
+                                        您的浏览器不支持视频播放。
+                                    </video>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm add-question" data-video="${response.video}" data-bs-toggle="modal" data-bs-target="#questionModal">添加问题</button>
+                                    <ul class="list-group mt-2 question-preview" data-video="${response.video}"></ul>
+                                </td>
+                                <td><input type="text" class="form-control remark" placeholder="备注"></td>
+                                <td>
+                                    <select class="form-select video-type">
+                                        <option value="cartoon">动画</option>
+                                        <option value="movie">电影</option>
+                                        <option value="documentary">纪录片</option>
+                                        <option value="comedy">搞笑视频</option>
+                                        <option value="other">其他</option>
+                                    </select>
+                                </td>
+                                <td><button class="btn btn-success btn-sm save-btn" data-video="${response.video}">保存</button></td>
+                            </tr>
+                        ;
+                        $('table tbody').append(newRowHtml);
+                    } else {
+                        alert("提示：" + response.message);
+                    }
+                },
+                error: function () {
+                    alert("请求失败，请检查后端服务是否正常运行。");
+                }
+            });
+        });
+        // 添加选项
+        $(document).on('click', '.add-option', function () {
+            $('#optionsContainer').append(
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control option-input" placeholder="输入选项">
+                    <button type="button" class="btn btn-danger remove-option">删除</button>
+                </div>
+            );
+        });
+
+        // 删除选项
+        $(document).on('click', '.remove-option', function () {
+            $(this).closest('.input-group').remove();
+        });
+
+        // 保存问题
+        $('.save-question').click(function () {
+            const question = $('#questionInput').val();
+            const options = $('.option-input').map((_, el) => $(el).val()).get();
+            const correctAnswer = $('#correctAnswer').val();
+            const abilityType = $('#abilityType').val();
+            const remark = $('#remark').val();
+            const editingIndex = parseInt($('#editingIndex').val(), 10);
+
+            if (!question || options.length === 0 || !correctAnswer) {
+                alert("请填写完整信息！");
+                return;
+            }
+
+            const questionData = { question, options, correctAnswer, abilityType, remark };
+
+            const video = $('#questionModal').data('video');
+            const questionList = $(.question-preview[data-video="${video}"]);
+
+            if (editingIndex === -1) {
+                // 新增问题
+                appendQuestionToList(questionList, questionData);
+            } else {
+                // 编辑问题
+                questionList.find(li[data-index="${editingIndex}"]).replaceWith(generateQuestionHtml(editingIndex, questionData));
+            }
+
+            $('#questionForm')[0].reset();
+            $('#editingIndex').val('-1');
+            $('#questionModal').modal('hide');
+        });
+
+        // 打开模态框
+        $('.add-question').click(function () {
+            $('#questionForm')[0].reset();
+            $('#editingIndex').val('-1');
+            $('#questionModal').data('video', $(this).data('video'));
+        });
+
+        // 保存到服务器
+        $('.save-btn').click(function () {
+            const video = $(this).data('video');
+            const remark = $(this).closest('tr').find('.remark').val();
+            const videoType = $(this).closest('tr').find('.video-type').val();
+
+            const questions = [];
+            $(.question-preview[data-video="${video}"] li).each(function () {
+                questions.push($(this).data('question'));
+            });
+
+            $.ajax({
+                url: '/save',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ video, remark, videoType, questions }),
+                success: function (response) {
+                    alert(response.message);
+                },
+                error: function () {
+                    alert("保存失败！");
+                }
+            });
+        });
+
+        function appendQuestionToList(questionList, questionData) {
+            const index = questionList.find('li').length;
+            questionList.append(generateQuestionHtml(index, questionData));
+        }
+
+        function generateQuestionHtml(index, questionData) {
+            return 
+                <li class="list-group-item d-flex justify-content-between align-items-start" data-index="${index}" data-question='${JSON.stringify(questionData)}'>
+                    <div>
+                        <strong>问题:</strong> ${questionData.question}<br>
+                    </div>
+                    <div>
+                        <button class="btn btn-warning btn-sm edit-question">编辑</button>
+                        <button class="btn btn-danger btn-sm delete-question">删除</button>
+                    </div>
+                </li>
+            ;
+        }
+
+        // 编辑问题
+        $(document).on('click', '.edit-question', function () {
+            const questionData = $(this).closest('li').data('question');
+            const index = $(this).closest('li').data('index');
+
+            $('#questionInput').val(questionData.question);
+            $('#correctAnswer').val(questionData.correctAnswer);
+            $('#abilityType').val(questionData.abilityType);
+            $('#remark').val(questionData.remark);
+            $('#optionsContainer').empty();
+            questionData.options.forEach(option => {
+                $('#optionsContainer').append(
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control option-input" value="${option}">
+                        <button type="button" class="btn btn-danger remove-option">删除</button>
+                    </div>
+                );
+            });
+            $('#editingIndex').val(index);
+            $('#questionModal').modal('show');
+        });
+
+        // 删除问题
+        $(document).on('click', '.delete-question', function () {
+            $(this).closest('li').remove();
+        });
+    });
+</script>

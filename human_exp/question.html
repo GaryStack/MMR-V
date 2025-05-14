@@ -1,0 +1,77 @@
+<!-- question.html 答题页面 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question</title>
+    <style>
+        .container { max-width: 800px; margin: 20px auto; }
+        video { width: 100%; margin-bottom: 20px; }
+        .option { margin: 10px 0; display: flex; align-items: center; }
+        .option input { margin-right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video id="videoPlayer" controls></video>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button onclick="submitAll()">Submmit</button>
+    </div>
+
+    <script>
+        let questions = [];
+        let userAnswers = {};
+
+        // 初始化页面
+        (async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const currentId = parseInt(urlParams.get('id'));
+
+            // 加载题目数据
+            const response = await fetch('questions.json');
+            questions = await response.json();
+            
+            // 显示当前题目
+            const question = questions[currentId];
+            document.getElementById('question').textContent = question.question;
+            
+            // 设置视频
+            const videoPath = `/netdisk/zhukejian/implicit_video_anonotations/static/videos/${question.video}`;
+            document.getElementById('videoPlayer').src = videoPath;
+
+            // 生成选项
+            const optionsHtml = question.options.map((opt, index) => `
+                <div class="option">
+                    <input type="radio" name="answer" 
+                           value="${opt.substring(1,2)}" 
+                           onchange="saveAnswer(${currentId}, '${opt.substring(1,2)}')">
+                    ${opt}
+                </div>
+            `).join('');
+            document.getElementById('options').innerHTML = optionsHtml;
+
+            // 加载已保存的答案
+            const savedAnswers = JSON.parse(localStorage.getItem('answers') || '{}');
+            if (savedAnswers[currentId]) {
+                document.querySelector(`input[value="${savedAnswers[currentId]}"]`).checked = true;
+            }
+        })();
+
+        function saveAnswer(id, answer) {
+            userAnswers[id] = answer;
+            localStorage.setItem('answers', JSON.stringify(userAnswers));
+        }
+
+        function submitAll() {
+            const correctCount = questions.reduce((count, q, index) => {
+                const correct = q.correctAnswer.trim().substring(1,2);
+                return count + (userAnswers[index] === correct ? 1 : 0);
+            }, 0);
+            
+            const accuracy = (correctCount / questions.length * 100).toFixed(2);
+            alert(`Accuracy: ${accuracy}% (${correctCount}/${questions.length})`);
+            localStorage.removeItem('answers');
+        }
+    </script>
+</body>
+</html>

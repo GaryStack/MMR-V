@@ -1,0 +1,965 @@
+[
+    {
+        "video": "A Social Life | Award Winning Short Film | Social Media Depression.mp4",
+        "videoType": "movie",
+        "question": "Why does the female protagonist in the video constantly post updates?",
+        "reference answer": "She is striving to manage her social media presence."
+    },
+    {
+        "video": "A Social Life | Award Winning Short Film | Social Media Depression.mp4",
+        "videoType": "movie",
+        "question": "What social phenomenon does this film as a whole aim to reflect?",
+        "reference answer": "It relfects the social media depression."
+    },
+    {
+        "video": "A Social Life | Award Winning Short Film | Social Media Depression.mp4",
+        "videoType": "movie",
+        "question": "What does the final scene of the female protagonist facing the mirror symbolize?",
+        "reference answer": "It symbolizes the protagonist engaging in deep self-reflection and introspection."
+    },
+    {
+        "video": "A Social Life | Award Winning Short Film | Social Media Depression.mp4",
+        "videoType": "movie",
+        "question": "What does the appearance of many photos in the mirror in the last scene express?",
+        "reference answer": "This symbolizes that her reflection is merely a collection of the photos she has shared with others."
+    },
+    {
+        "video": "A Social Life | Award Winning Short Film | Social Media Depression.mp4",
+        "videoType": "movie",
+        "question": "What issue with modern internet culture does the creator hope to highlight through this video?",
+        "reference answer": "Social media isn't for socializing anymore it's all competition now for the most likes."
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "What does the man's action of discarding the green drink after posting on social media represent in the film?",
+        "reference answer": "People are curating their social media image, which is not authentic."
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "Which term does the creator hope to depict through this video?",
+        "reference answer": "Insta Lie"
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "Why does the woman in the last scene sit up even though she is very tired?",
+        "reference answer": "She needs to get up to check if her social media posts have received likes."
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "Which of the following scenes aligns with the social phenomenon expressed in the video?",
+        "reference answer": "A girl enters the gym, takes a photo of herself, and then leaves."
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "What negative outcomes can the phenomenon reflected in the film lead to?",
+        "reference answer": "Social media increases depression and loneliness."
+    },
+    {
+        "video": "Are You Living an Insta Lie? Social Media Vs. Reality.mp4",
+        "videoType": "movie",
+        "question": "Please speculate which of the following comments would likely be the most popular one for this film.",
+        "reference answer": "We're a sad generation with happy pictures."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "At the beginning of the film, when the man goes through security and is asked to take out his wallet, why did the man carry this wallet?",
+        "reference answer": "So that he can later mask the sound of the chip passing through security."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "What is the purpose of the group of people who are being searched?",
+        "reference answer": "They are here to steal the chip located at the bottom of the machine."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "The company's manager noticed something suspicious, which is why he ordered the body search.",
+        "reference answer": "He saw a man rushing out with evasive eyes."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "Why did the man wearing a fedora suddenly have to blow his nose?",
+        "reference answer": "To buy time for his accomplice who was swapping the chips."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "Why do several people need to pass around that playing card after 3:10?",
+        "reference answer": "They are passing the chip that is attached to the back of the playing card."
+    },
+    {
+        "video": "Now You See Me 2 Card Throw Scene HD (2016) #CARD_TRICK.mp4",
+        "videoType": "movie",
+        "question": "Why does the woman suddenly fall around 3:52?",
+        "reference answer": "She pretended to fall to remove the chip from her shoe."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "What are the two men ultimately trying to accomplish?",
+        "reference answer": "They are racing to see who can get to the airplane seat first."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "How does the man in the blue shirt at the beginning of the film manage to get a ticket from the smart screen?",
+        "reference answer": "He achieved this effect by filming two separate videos and then editing them together."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "What is the punchline when the man in the red shirt goes through security?",
+        "reference answer": "He appears to have nothing, but ends up taking out many items that cannot pass security."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "Speculate on the emotional state of the man in the red shirt at 2:48.",
+        "reference answer": "He is very helpless and speechless, and also very anxious."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "When did the man in black arrive in the final scene?",
+        "reference answer": "He is the man in the blue shirt from earlier, who changed his appearance through editing."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "Why does the man in black perform another magic trick in the final scene?",
+        "reference answer": "He wants the window seat, which is more comfortable."
+    },
+    {
+        "video": "First To The Gate - Magical Short Film w⧸ Zach King.mp4",
+        "videoType": "movie",
+        "question": "How were most of the many unrealistic scenes in the film achieved?",
+        "reference answer": "By filming multiple segments and then smoothly editing them together.",
+        "false options":[
+            "It was achieved through movie special effects and post-production magic effects.",
+            "Both individuals are well-known online magicians, and they are performing magic tricks."
+        ]
+    },
+    {
+        "video": "Top of Zach King Incredible Magic Tricks Ever - New Best Zach King Magic Ever.mp4",
+        "videoType": "movie",
+        "question": "How were the first two scenes in the video accomplished?",
+        "reference answer": "By filming multiple segments and then smoothly editing them together.",
+        "false options": [
+            "The man is a well-known online magician; he is performing magic tricks.",
+            "It was achieved through movie special effects and post-production magic effects."
+        ]
+    },
+    {
+        "video": "Top of Zach King Incredible Magic Tricks Ever - New Best Zach King Magic Ever.mp4",
+        "videoType": "movie",
+        "question": "Around 1:50, how does the man manage to eat secretly during the meeting without being noticed?",
+        "reference answer": "He uses visual illusion to pretend that he is seriously attending the meeting."
+    },
+    {
+        "video": "Top of Zach King Incredible Magic Tricks Ever - New Best Zach King Magic Ever.mp4",
+        "videoType": "movie",
+        "question": "Please speculate on the man's profession.",
+        "reference answer": "He is a talented magician.",
+        "false options": "He is a skilled video editor."
+    },
+    {
+        "video": "Shaolin Soccer: The Evil Goalkeeper.mp4",
+        "videoType": "movie",
+        "question": "What does the yellow panther that appears at 0:18 symbolize?",
+        "reference answer": "It symbolizes that the kicked football travels at a very high speed and with great force."
+    },
+    {
+        "video": "Shaolin Soccer: The Evil Goalkeeper.mp4",
+        "videoType": "movie",
+        "question": "Why does the team in yellow have such good physical fitness when playing football?",
+        "reference answer": "Because they have trained in Chinese kung fu at the Shaolin Temple."
+    },
+    {
+        "video": "Shaolin Soccer: The Evil Goalkeeper.mp4",
+        "videoType": "movie",
+        "question": "Why does the team in black have such good physical fitness when playing football?",
+        "reference answer": "Because they have used technological means and drugs to enhance their physical abilities."
+    },
+    {
+        "video": "Shaolin Soccer: The Evil Goalkeeper.mp4",
+        "videoType": "movie",
+        "question": "What does the fire in the man's eyes at 3:32 symbolize?",
+        "reference answer": "It symbolizes that the penalty kick is taken with great speed and force."
+    },
+    {
+        "video": "Shaolin Soccer: The Evil Goalkeeper.mp4",
+        "videoType": "movie",
+        "question": "What type of video is this likely to be?",
+        "reference answer": "It is a comedy."
+    },
+    {
+        "video": "Hilarious Soccer Shootout With Scott Sterling (Studio C).mp4",
+        "videoType": "humor",
+        "question": "Why does the teammate in black rush onto the field at the end?",
+        "reference answer": "They won the match and also came to assist the goalkeeper."
+    },
+    {
+        "video": "Hilarious Soccer Shootout With Scott Sterling (Studio C).mp4",
+        "videoType": "humor",
+        "question": "What is the humor in this video?",
+        "reference answer": "Every time, the goalkeeper in blue uses his face to block the shots."
+    },
+    {
+        "video": "Hilarious Soccer Shootout With Scott Sterling (Studio C).mp4",
+        "videoType": "humor",
+        "question": "Speculate on the genre of this video.",
+        "reference answer": "Comedy."
+    },
+    {
+        "video": "Best Volleyball Blocks Ever with Scott Sterling - Studio C.mp4",
+        "videoType": "humor",
+        "question": "Speculate on the genre of this video.",
+        "reference answer": "Comedy."
+    },
+    {
+        "video": "Best Volleyball Blocks Ever with Scott Sterling - Studio C.mp4",
+        "videoType": "humor",
+        "question": "What's the punchline in this video?",
+        "reference answer": "The man can always cleverly use his face to block the ball no matter what."
+    },
+    {
+        "video": "Best Volleyball Blocks Ever with Scott Sterling - Studio C.mp4",
+        "videoType": "humor",
+        "question": "Please suggest a suitable title for this film.",
+        "reference answer": "Best Volleyball Blocks Ever"
+    },
+    {
+        "video": "iShowSpeed Football Charity Match Best Moments!.mp4",
+        "videoType": "Sports",
+        "question": "Speculate on the mood of the spectator at 1:19.",
+        "reference answer": "He feels speechless, regretful, and angry."
+    },
+    {
+        "video": "iShowSpeed Football Charity Match Best Moments!.mp4",
+        "videoType": "Sports",
+        "question": "Please suggest a fitting and humorous title for this video.",
+        "reference answer": "Football Charity Match Best Moments!"
+    },
+    {
+        "video": "iShowSpeed Football Charity Match Best Moments!.mp4",
+        "videoType": "Sports",
+        "question": "Which of the following comments most humorously and aptly summarizes the player's performance?",
+        "reference answer": "Bro retired at 19! What a career."
+    },
+    {
+        "video": "Now You See Me 2 (2016) - Controlling the Rain Scene (9⧸11) ｜ Movieclips.mp4",
+        "videoType": "movie",
+        "question": "Why did the audience in the first scene suddenly look very surprised and start taking photos?",
+        "reference answer": "Because they noticed the raindrops around them suddenly stopped moving."
+    },
+    {
+        "video": "Now You See Me 2 (2016) - Controlling the Rain Scene (9⧸11) ｜ Movieclips.mp4",
+        "videoType": "movie",
+        "question": "How did the man in the first scene manage to stop the raindrops and make them fly upwards?",
+        "reference answer": "He used strobe lights to control the rain, creating an illusion."
+    },
+    {
+        "video": "Now You See Me 2 (2016) - Controlling the Rain Scene (9⧸11) ｜ Movieclips.mp4",
+        "videoType": "movie",
+        "question": "How can the counterintuitive phenomenon achieved by the man in the first scene be explained?",
+        "reference answer": "He is a magician, and this is an illusion.",
+        "false options": [
+            "This counterintuitive phenomenon was achieved through movie special effects.",
+            "This is magic; the man in the movie is a sorcerer."
+        ]
+    },
+    {
+        "video": "Now You See Me 2 (2016) - Controlling the Rain Scene (9⧸11) ｜ Movieclips.mp4",
+        "videoType": "movie",
+        "question": "Speculate whether the audience in the first scene can feel raindrops falling after removing their umbrellas.",
+        "reference answer": "They can still feel it, as the raindrops have not truly stopped."
+    },
+    {
+        "video": "Now You See Me 2 (2016) - Controlling the Rain Scene (9⧸11) ｜ Movieclips.mp4",
+        "videoType": "movie",
+        "question": "What game is the man playing in the second scene?",
+        "reference answer": "Guessing which card the woman is behind after the cards have been switched."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How did the man in the first scene manage to project the card the woman remembered onto the building's lights?",
+        "reference answer": "He actually controlled which card the woman would choose.",
+        "false options": [
+            "The woman is an actress he hired, and this was all prearranged."
+        ]
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How did the man know that the girl would remember the seven of diamonds?",
+        "reference answer": "He lingered on this card the longest when he was shuffling the deck."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "In the second scene, how does the man wearing a fedora guess the name of the man across from him?",
+        "reference answer": "He uses hypnosis to observe the subtle expressions of the man across from him."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "What special skills does the second man have?",
+        "reference answer": "He is actually a hypnotist who understands human psychology deeply."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "What is the purpose of the man boarding the ship in the third scene?",
+        "reference answer": "His purpose is to engage people in a puzzle and steal their money."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How did the man in the third scene manage to bend the sturdy spoon?",
+        "reference answer": "He actually switched the spoon for another one when no one was paying attention."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "Why was the elderly black man warned by security at the beginning of the film?",
+        "reference answer": "Because mobile phones are not allowed to be used for recording during magic shows."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "They first interact with the audience to select a lucky volunteer to come on stage and participate in the next magic trick. Is this volunteer pre-selected or chosen at random, and why?",
+        "reference answer": "The audience member was pre-selected, and the magician manipulated the ball."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How do the magicians transport the audience to his bank?",
+        "reference answer": "In reality, he was not transported to the bank but rather beneath the stage."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How do the magicians manage to rob money from a Swiss bank?",
+        "reference answer": "They had already transferred the money to beneath the stage beforehand."
+    },
+    {
+        "video": "Now You See Me Official Opening Scene (2013) - Mark Ruffalo, Morgan Freeman Movie HD.mp4",
+        "videoType": "movie",
+        "question": "How do they manage to withdraw money through the air?",
+        "reference answer": "They did not withdraw money through the air; they had already obtained it in advance."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "How did the man at the beginning of the film manage to pull out half of his finger and then reattach it?",
+        "reference answer": "He simply bent his finger to create an optical illusion."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "How did the man at the beginning of the film manage to hold the flame from the lighter in his hand?",
+        "reference answer": "In fact, he had a hidden lighter in his hand, a sleight of hand trick."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "At 3:30, how did the man manage to pull the metal ring out of his finger?",
+        "reference answer": "He quickly pulled his little finger out from inside the ring."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "Starting at 4:35, how did the man achieve this magical effect in the magic trick?",
+        "reference answer": "The bottle inside the paper bag had already been altered to leave only the outer plastic skin."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "At 6:00, how did the man make smoke come out from between his fingers?",
+        "reference answer": "By rubbing the remnants of a spent match's striking paper on his hand."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "Starting at 7:56, how did the man manage to push the coin through the film and into the glass bottle?",
+        "reference answer": "The coin was already on the inside of the film at the beginning."
+    },
+    {
+        "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+        "videoType": "life",
+        "question": "Starting at 12:56, how did the man manage to thread the white scarf through his own palm?",
+        "reference answer": "A white prop guided the scarf through the side of the palm."
+    },
+    {
+        "video": "The Easiest Card Trick In The World | Magic Trick Tutorial.mp4",
+        "videoType": "life",
+        "question": "How did the man manage to insert the top card into the deck and then reveal the top card again, only to find it back in its original position?",
+        "reference answer": "When he first showed the cards, he actually turned over two cards."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "In the scene starting at 0:15, what technique does the man use to shock everyone?",
+        "reference answer": "By using sleight of hand to conceal the pen."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How does the man at 0:58 manage to push the pen into his nose and then pull it out of his mouth?",
+        "reference answer": "This is an illusion; the pen was in his hand the whole time."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Starting at 1:54, how does the man make the pen suddenly disappear?",
+        "reference answer": "He simply flipped the pen around and behind his palm with his fingers.",
+        "false options": "He used sleight of hand, just retracting the pen a bit and blocking it with his hand."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "The magic trick at 2:46 successfully utilizes which of the following principles?",
+        "reference answer": "The persistence of vision and short-term memory."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "In the magic trick starting at 3:46, where does the man make the coin disappear to?",
+        "reference answer": "The man made the coin disappear into his right hand.",
+        "false options": "The man made the coin disappear into his right hand."
+    },
+    {
+        "video": "5 VISUAL Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How are the many magical moments of sudden disappearances or transformations achieved in the video?",
+        "reference answer": "This is the result of the magician's skillful technique, honed through extensive practice.",
+        "false options": "These astonishing effects are achieved through video editing."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Starting at 0:37, the man demonstrates an amazing magic trick. Are there any requirements for the pen used in this trick, and why?",
+        "reference answer": "This trick requires the pen to have a clip that can be attached to the hand."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "At 1:17, the man makes the pen on the cup of water spin. How is this done?",
+        "reference answer": "He used an invisible thin thread on his hand to touch the pen."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Starting at 3:19, how does the magician make the pen pass through the paper without damaging it?",
+        "reference answer": "The pen was actually always underneath the paper, just concealed by it."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Starting at 4:56, how does the man make the pen disappear?",
+        "reference answer": "He slipped the pen into the black pocket in front of him."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "In the short scene starting at 6:17, how does the man instantly change the color of the pen?",
+        "reference answer": "He holds a pen of a different color in his left hand and makes a quick switch."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Starting at 7:51, how does the man make the pencil in his hand disappear instantly?",
+        "reference answer": "He attached the pencil to the back of his thumb, concealing it with his hand."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "Where did the pencil go after the man made it disappear starting at 7:51?",
+        "reference answer": "The pencil moved to the man's right hand.",
+        "false options": "The pencil moved to the man's right hand."
+    },
+    {
+        "video": "12 AMAZING Pen Tricks Anyone Can Do | Revealed.mp4",
+        "videoType": "life",
+        "question": "How are the many magical sequences that appear in the video achieved?",
+        "reference answer": "Skillful techniques developed through the magician's repeated practice.",
+        "false options": "This is actually a magical effect achieved through careful editing after multiple recordings by the man."
+    },
+    {
+        "video": "Marula's SHOCKING Balance Act Stuns Everyone! | Italia's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "Please summarize the essence of this performance in one word.",
+        "reference answer": "Balance."
+    },
+    {
+        "video": "Marula's SHOCKING Balance Act Stuns Everyone! | Italia's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "How does the woman make so many wooden sticks support each other?",
+        "reference answer": "By repeatedly practicing to accurately find their balance points."
+    },
+    {
+        "video": "Marula's SHOCKING Balance Act Stuns Everyone! | Italia's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "What kind of philosophy can we gain from this performance?",
+        "reference answer": "This is a great reminder that the smallest things matter too."
+    },
+    {
+        "video": "Johannes Stötter Brings His INCREDIBLE Art To Life | Auditions | AGT 2024.mp4",
+        "videoType": "TV",
+        "question": "At 1:05, which part of the actor's body represents the lizard's eyes?",
+        "reference answer": "The lizard's eyes are actually a person's arms."
+    },
+    {
+        "video": "Johannes Stötter Brings His INCREDIBLE Art To Life | Auditions | AGT 2024.mp4",
+        "videoType": "TV",
+        "question": "In the performance, which part of the actor's body represents the parrot's beak?",
+        "reference answer": "The parrot's beak is the actor's hand."
+    },
+    {
+        "video": "Johannes Stötter Brings His INCREDIBLE Art To Life | Auditions | AGT 2024.mp4",
+        "videoType": "TV",
+        "question": "At 1:35, why does the child in the shot gasp with an open mouth?",
+        "reference answer": "She suddenly realizes that the animals on stage are being performed by people."
+    },
+    {
+        "video": "Johannes Stötter Brings His INCREDIBLE Art To Life | Auditions | AGT 2024.mp4",
+        "videoType": "TV",
+        "question": "At 2:19, which parts of the actor's body perform the lizard's eyes and the spikes on its head?",
+        "reference answer": "They are performed by the actor's head and feet, respectively."
+    },
+    {
+        "video": "LEAKED! Hilarious Shadow Puppets - AGT 2023 Early Release.mp4",
+        "videoType": "TV",
+        "question": "What is happening in the shot at 1:40?",
+        "reference answer": "An actress is shaving her legs."
+    },
+    {
+        "video": "LEAKED! Hilarious Shadow Puppets - AGT 2023 Early Release.mp4",
+        "videoType": "TV",
+        "question": "What is the shadow that appears in our view at 1:40 imitating?",
+        "reference answer": "It is imitating a pole dancer."
+    },
+    {
+        "video": "LEAKED! Hilarious Shadow Puppets - AGT 2023 Early Release.mp4",
+        "videoType": "TV",
+        "question": "What story does the hand shadow play starting at 2:09 tell?",
+        "reference answer": "A couple has an argument and then breaks up."
+    },
+    {
+        "video": "LEAKED! Hilarious Shadow Puppets - AGT 2023 Early Release.mp4",
+        "videoType": "TV",
+        "question": "What is the large hand shadow at 2:26 imitating?",
+        "reference answer": "The large hand shadow is imitating a big tree."
+    },
+    {
+        "video": "LEAKED! Hilarious Shadow Puppets - AGT 2023 Early Release.mp4",
+        "videoType": "TV",
+        "question": "What kind of music, starting at 2:58, would enhance the stage performance?",
+        "reference answer": "Gangnam Style"
+    },
+    {
+        "video": "Shadow Ace WOWS the judges with amazing hand shadows! | AGT: Fantasy League 2024.mp4",
+        "videoType": "TV",
+        "question": "What is the man mimicking with his hand shadows at 0:05?",
+        "reference answer": "It's a beatboxer performing."
+    },
+    {
+        "video": "Shadow Ace WOWS the judges with amazing hand shadows! | AGT: Fantasy League 2024.mp4",
+        "videoType": "TV",
+        "question": "What is the man mimicking with his hand shadows at 0:18?",
+        "reference answer": "He is mimicking the cheering audience below the stage."
+    },
+    {
+        "video": "Shadow Ace WOWS the judges with amazing hand shadows! | AGT: Fantasy League 2024.mp4",
+        "videoType": "TV",
+        "question": "What role did the bald man next to the shadow puppeteer play?",
+        "reference answer": "The bald man is mimicking the equipment for DJ show."
+    },
+    {
+        "video": "Shadow Ace WOWS the judges with amazing hand shadows! | AGT: Fantasy League 2024.mp4",
+        "videoType": "TV",
+        "question": "What kind of instrument should be used to score the performance around 1:07?",
+        "reference answer": "Piano."
+    },
+    {
+        "video": "Shadow Ace WOWS the judges with amazing hand shadows! | AGT: Fantasy League 2024.mp4",
+        "videoType": "TV",
+        "question": "What is the man mimicking with his hand shadows around 1:38?",
+        "reference answer": "He is mimicking a woman in an evening gown with hand shadows."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "Around 0:19, which of the following singers are the men imitating?",
+        "reference answer": "Elvis Presley"
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "At 0:38, the men's attire is imitating which of the following celebrities?",
+        "reference answer": "James Brown"
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "The dance in the sixth scene is imitating which of the following bands?",
+        "reference answer": "The Jackson 5."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "The most significant difference in attire between the band imitated in the sixth scene and the previous band.",
+        "reference answer": "Colorful jackets and flared trousers."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the tenth dance, the men are imitating which of the following celebrities?",
+        "reference answer": "John Travolta."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the thirteenth dance, the performers are imitating which of the following celebrities?",
+        "reference answer": "Janet Jackson."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the fifteenth dance, the performers are imitating which of the following celebrities?",
+        "reference answer": "Michael Jackson."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the sixteenth dance, the performers are imitating which of the following celebrities?",
+        "reference answer": "Irene Cara."
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the twenty-fourth dance, which celebrity are the men imitating?",
+        "reference answer": "Beyoncé"
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "Speculate which country the singer in the twenty-seventh dance is from.",
+        "reference answer": "South Korea"
+    },
+    {
+        "video": "The Evolution of Dance - 1950 to 2019 - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the twenty-ninth dance, which of the following is the nickname of the most representative male celebrity?",
+        "reference answer": "Bruno Mars"
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "Speculate which of the following groups the second dance is imitating.",
+        "reference answer": "*NSYNC"
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the sixth dance, what is the most prominent dance technique used by the performers?",
+        "reference answer": "Isolation"
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the eleventh dance, which of the following celebrities are the men imitating?",
+        "reference answer": "Justin Timberlake."
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the thirteenth dance, the men are imitating which of the following celebrities?",
+        "reference answer": "Justin Timberlake"
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the fourteenth dance, what is the main dance style that the men are performing?",
+        "reference answer": "Popping."
+    },
+    {
+        "video": "The Evolution of Dance - Justin Timberlake's Edition - By Ricardo Walker's Crew.mp4",
+        "videoType": "art",
+        "question": "In the fifteenth dance, what is the main dance style that the men are performing?",
+        "reference answer": "Popping."
+    },
+    {
+        "video": "Taylor Swift - We Are Never Ever Getting Back Together.mp4",
+        "videoType": "art",
+        "question": "What kind of story does the entire music video tell?",
+        "reference answer": "Breaking up with a bad guy and refusing to reconcile."
+    },
+    {
+        "video": "Taylor Swift - We Are Never Ever Getting Back Together.mp4",
+        "videoType": "art",
+        "question": "Why do musicians dressed in animal costumes appear multiple times in the music video? What is the purpose of this?",
+        "reference answer": "To create a joyful atmosphere and uplift the spirits of those who are feeling down after a breakup."
+    },
+    {
+        "video": "Taylor Swift - We Are Never Ever Getting Back Together.mp4",
+        "videoType": "art",
+        "question": "Why did the man who was sitting across from Taylor Swift at 1:11 suddenly appear in the bar at 1:26?",
+        "reference answer": "At 1:11, it's her reminiscing about their previous conflicts. It's a memory.",
+        "false options": "At 1:26, it's a recollection of the outrageous things this man has done in the past. It's just a memory."
+    },
+    {
+        "video": "Taylor Swift - We Are Never Ever Getting Back Together.mp4",
+        "videoType": "art",
+        "question": "Why does Taylor Swift suddenly walk through the heart-shaped arch and hug her ex-boyfriend at 2:05?",
+        "reference answer": "This is Taylor Swift reminiscing about the sweet promises they made when they first got together.",
+        "false options": "This is actually Taylor Swift giving her boyfriend another chance, hoping that he can correct his mistakes."
+    },
+    {
+        "video": "Kenichi Ebina Performs an Epic Matrix- Style Martial Arts Dance - America's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "What kind of dance is the man in the video performing?",
+        "reference answer": "He is performing popping."
+    },
+    {
+        "video": "Kenichi Ebina Performs an Epic Matrix- Style Martial Arts Dance - America's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "How does the man manage to get his head down so low?",
+        "reference answer": "His jacket actually has a support structure that allows his body to go down."
+    },
+    {
+        "video": "Kenichi Ebina Performs an Epic Matrix- Style Martial Arts Dance - America's Got Talent.mp4",
+        "videoType": "TV",
+        "question": "What is the man on stage imitating with his backward-leaning dance move?",
+        "reference answer": "He is imitating the slow-motion of dodging a bullet."
+    },
+    {
+        "video": "Temple London: Father Son Duo Make Simon Cowell Jealous on America's Got Talent!.mp4",
+        "videoType": "TV",
+        "question": "What is the relationship between the two performers?",
+        "reference answer": "Father and son."
+    },
+    {
+        "video": "Temple London: Father Son Duo Make Simon Cowell Jealous on America's Got Talent!.mp4",
+        "videoType": "TV",
+        "question": "Why did the man make that expression at 1:37?",
+        "reference answer": "He was shocked to see the performer standing on the resting pole.",
+        "false options": "The audience was extremely shocked because the performer on stage genuinely broke a metal rod with his head, demonstrating his authentic skill."
+    },
+    {
+        "video": "Temple London: Father Son Duo Make Simon Cowell Jealous on America's Got Talent!.mp4",
+        "videoType": "TV",
+        "question": "What kind of martial arts are they practicing and performing?",
+        "reference answer": "They are practicing Iron Shirt Qigong."
+    },
+    {
+        "video": "Temple London: Father Son Duo Make Simon Cowell Jealous on America's Got Talent!.mp4",
+        "videoType": "TV",
+        "question": "Please identify the most representative scene in the entire video that reflects the father's love for his son.",
+        "reference answer": "The father bends down to gently touch, caress, and kiss the child's forehead."
+    },
+    {
+        "video": "Temple London: Father Son Duo Make Simon Cowell Jealous on America's Got Talent!.mp4",
+        "videoType": "TV",
+        "question": "Please identify the most representative scene in the entire video that shows the son's love for his father.",
+        "reference answer": "The son's worried expression as he sees his father bending the rebar with his head."
+    },
+    {
+        "video": "2 Year Old GENIUS Leaves Simon Cowell Feeling STUPID on America's Got Talent 2024!.mp4",
+        "videoType": "TV",
+        "question": "Why are people opening their mouths and laughing at 1:26?",
+        "reference answer": "The child thought the way '7' was written was not standard and corrected it."
+    },
+    {
+        "video": "2 Year Old GENIUS Leaves Simon Cowell Feeling STUPID on America's Got Talent 2024!.mp4",
+        "videoType": "TV",
+        "question": "Is there any humor in the scene at 2:36?",
+        "reference answer": "Like the math teacher saying, 'WHO'S DISTURBING MY CLASS?!' with that stern look."
+    },
+    {
+        "video": "2 Year Old GENIUS Leaves Simon Cowell Feeling STUPID on America's Got Talent 2024!.mp4",
+        "videoType": "TV",
+        "question": "Speculate which scene in the entire video people are most likely to focus on, discuss, and find interesting (including the time and description).",
+        "reference answer": "The sudden glance back by the little boy at 2:35."
+    },
+    {
+        "video": "2 Year Old GENIUS Leaves Simon Cowell Feeling STUPID on America's Got Talent 2024!.mp4",
+        "videoType": "TV",
+        "question": "Why is the performance on this stage so captivating?",
+        "reference answer": "The child displays cuteness, focus, and intelligence, creating a sense of contrast."
+    },
+    {
+        "video": "2 Year Old GENIUS Leaves Simon Cowell Feeling STUPID on America's Got Talent 2024!.mp4",
+        "videoType": "TV",
+        "question": "Why did the boy suddenly look back at 2:35?",
+        "reference answer": "He thought that the judge had made a noise and interrupted him."
+    },
+    {
+        "video": "Leo Messi vs Kobe Bryant - Legends on Board - Turkish Airlines.mp4",
+        "videoType": "advertisement",
+        "question": "Why did Messi suddenly start juggling the ball on the plane?",
+        "reference answer": "He wanted to attract the children to come and ask for his autograph."
+    },
+    {
+        "video": "Leo Messi vs Kobe Bryant - Legends on Board - Turkish Airlines.mp4",
+        "videoType": "advertisement",
+        "question": "In which scene does the humor in this video reach its climax?",
+        "reference answer": "The child's attention was captured by the ice cream brought by the flight attendant."
+    },
+    {
+        "video": "Leo Messi vs Kobe Bryant - Legends on Board - Turkish Airlines.mp4",
+        "videoType": "advertisement",
+        "question": "What type of video is this most likely to be?",
+        "reference answer": "This is an advertisement."
+    },
+    {
+        "video": "Leo Messi vs Kobe Bryant - Legends on Board - Turkish Airlines.mp4",
+        "videoType": "advertisement",
+        "question": "This video is actually an advertisement. Whose company does it advertise for?",
+        "reference answer": "Turkish Airlines",
+        "false options": [
+            "Häagen-Dazs ice cream.",
+            "Breyers Ice Cream.",
+            "British Airways",
+            "International Airlines Group, IAG",
+            "Austrian Airlines",
+            "Swiss International Air Lines"
+        ]
+    },
+    {
+        "video": "Leo Messi vs Kobe Bryant - Legends on Board - Turkish Airlines.mp4",
+        "videoType": "advertisement",
+        "question": "Why did the two soccer stars suddenly start building a house of cards on the plane?",
+        "reference answer": "They are competing to see who can get the child to ask for an autograph."
+    },
+    {
+        "video": "Life Vest Inside - Kindness Boomerang - 'One Day'.mp4",
+        "videoType": "advertisement",
+        "question": "Speculate which of the following organizations or companies this video is most likely a promotional video for.",
+        "reference answer": "Life Vest Inside"
+    },
+    {
+        "video": "Life Vest Inside - Kindness Boomerang - 'One Day'.mp4",
+        "videoType": "advertisement",
+        "question": "Summarize the core theme of this video in fewer than four words.",
+        "reference answer": "Kindness Boomerang"
+    },
+    {
+        "video": "Life Vest Inside - Kindness Boomerang - 'One Day'.mp4",
+        "videoType": "advertisement",
+        "question": "Which song do you think would be the most suitable soundtrack for this video?",
+        "reference answer": "One Day"
+    },
+    {
+        "video": "Life Vest Inside - Kindness Boomerang - 'One Day'.mp4",
+        "videoType": "advertisement",
+        "question": "How can the story told in the entire video be most aptly summarized?",
+        "reference answer": "Your kindness will be passed on by those who are helped."
+    },
+    {
+        "video": "Life Vest Inside - Kindness Boomerang - 'One Day'.mp4",
+        "videoType": "advertisement",
+        "question": "Observe the attire of the people in the first scene and speculate on the overall metaphor of the film.",
+        "reference answer": "The Life Vest Inside organization is committed to initiating acts of kindness in society."
+    },
+    {
+        "video": "Heal the World (Life Vest Inside) 2020.mp4",
+        "videoType": "advertisement",
+        "question": "What is the significance of the production team creating this video?",
+        "reference answer": "The video calls on people around the world to unite and heal the world with love."
+    },
+    {
+        "video": "Heal the World (Life Vest Inside) 2020.mp4",
+        "videoType": "advertisement",
+        "question": "If we were to choose a soundtrack for this video, which of the following songs would be the most appropriate?",
+        "reference answer": "Heal the World"
+    },
+    {
+        "video": "Heal the World (Life Vest Inside) 2020.mp4",
+        "videoType": "advertisement",
+        "question": "Speculate which of the following years this video is most likely to have been filmed in.",
+        "reference answer": "2020"
+    },
+    {
+        "video": "Matisyahu - One Day (Lyrics).mp4",
+        "videoType": "art",
+        "question": "What core idea does this song primarily aim to convey?",
+        "reference answer": "The overall message is to oppose war and advocate for world peace."
+    },
+    {
+        "video": "Matisyahu - One Day (Lyrics).mp4",
+        "videoType": "art",
+        "question": "Speculate what the majority of users in the video's comment section are likely to be saying.",
+        "reference answer": "Praying for peace in the world and in their own country, and for the safety and happiness of the people."
+    },
+    {
+        "video": "Matisyahu - One Day (Lyrics).mp4",
+        "videoType": "art",
+        "question": "Speculate what kind of title the comment section of this video has given to this song.",
+        "reference answer": "Anthem of the World!"
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "What does the Superman costume, which appears multiple times in the film, symbolize?",
+        "reference answer": "It symbolizes the man's remarkable contributions to taking care of the elderly."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Why was the man stopped at 0:55?",
+        "reference answer": "He was stopped because his backpack zipper wasn't done up."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "What is the purpose of the film?",
+        "reference answer": "To document and celebrate the man's remarkable feat of founding a nursing home."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following philosophies is centrally conveyed throughout the film?",
+        "reference answer": "Wealth isn't measured by the size or beauty of one's house, but by the size of their heart."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Speculate which of the following months the film is likely to have been released in?",
+        "reference answer": "January, as it is a film related to the Lunar New Year."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "The blurring and transition of the final scene in the film—what does it symbolize?",
+        "reference answer": "It symbolizes the transition from the actors' performances in the film to the real-life inspirations behind their characters."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following statements can better summarize the film?",
+        "reference answer": "Progress blossoms when our legacy defines our wealth"
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Around 1:50, the man is taking care of an elderly woman. Why is he caring for her?",
+        "reference answer": "Because the woman's children are not there to care for her, and the man is kind-hearted.",
+        "false options": "Because this is the man's own aunt, who is now elderly and sick. The man understands the importance of gratitude."
+    },
+    {
+        "video": "RHB Chinese New Year 2025 | Wealth.mp4",
+        "videoType": "advertisement",
+        "question": "Why did the man's mother tell him, 'You are not just your mother's son'?",
+        "reference answer": "She supports her son in taking care of more lonely elderly people."
+    }
+]

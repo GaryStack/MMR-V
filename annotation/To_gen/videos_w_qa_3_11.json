@@ -1,0 +1,548 @@
+[
+    {
+        "video": "(PLASTIK) - A short film to end plastic pollution in South-East Asia.mp4",
+        "videoType": "movie",
+        "question": "What kind of appeal does this film want to express?",
+        "reference answer": "It calls on people to pay attention to plastic pollution and protect the environment."
+    },
+    {
+        "video": "(PLASTIK) - A short film to end plastic pollution in South-East Asia.mp4",
+        "videoType": "movie",
+        "question": "Speculate on the filming location of this movie.",
+        "reference answer": "South-East Asia"
+    },
+    {
+        "video": "Alan Walker - Faded.mp4",
+        "videoType": "art",
+        "question": "What is the protagonist doing throughout the entire music video?",
+        "reference answer": "Searching for lost or faded places or people based on a few clues."
+    },
+    {
+        "video": "Alan Walker - Faded.mp4",
+        "videoType": "art",
+        "question": "Which of the following lines is most likely to be a lyric from the song in this MV?",
+        "reference answer": "Where are you now"
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "What is the main theme that the entire animation aims to convey?",
+        "reference answer": "Humans should protect nature and care for the creatures around them."
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "Which of the following philosophies is the film most likely to convey?",
+        "reference answer": "To be born without freedom."
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "Which of the following philosophical questions is more in line with this animation?",
+        "reference answer": "It is a matter of choosing: To pray, or kill them first."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following comments would better reinforce the profound meaning of the animation?",
+        "reference answer": "That moment when you realize the one who was most human was a dog."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Please speculate on the emotions that viewers are most likely to experience after watching this animation.",
+        "reference answer": "Feeling sadness for the dog's ending and empathizing with the dog."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Why does the dog bark and bite people's clothes in the animation?",
+        "reference answer": "It detected something unusual and wanted to save the baby."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Please summarize the dog using a few adjectives.",
+        "reference answer": "Brave, tragic, and kind."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the first dead pig symbolize?",
+        "reference answer": "It symbolizes judges and the law, representing a political class."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the cat in the animation represent?",
+        "reference answer": "The cat symbolizes ordinary folks or common people."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the food in the animation metaphorically represent?",
+        "reference answer": "The food symbolizes limited resources and wealth."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the sudden appearance of the tiger symbolize?",
+        "reference answer": "It symbolizes the revolutionary struggle to overthrow bureaucracy and corruption."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "In the animation, there is a scene where a cat sees a snake being taken away and never sees it again. What does this symbolize?",
+        "reference answer": "This illustrates that an individual cannot change a corrupt system."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "Why was the image of a tiger chosen to overturn the banquet on the table?",
+        "reference answer": "The tiger can symbolize the energy unleashed when a cat breaks free from oppression."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the appearance of several cats at the end of the film and the subsequent plot symbolize?",
+        "reference answer": "The old regime is overthrown, only to be replaced by new ordinary people, creating a vicious cycle."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the wind-up mouse toy in the animation symbolize?",
+        "reference answer": "Trending news crafted by politicians to divert public attention."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "The kitten is placed in a new room while the old one is abandoned. What kind of reflection does the creator intend to provoke with this detail?",
+        "reference answer": "A vicious cycle endlessly repeated by politicians, while resources do not regenerate."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "Please suggest a meaningful title for this animation.",
+        "reference answer": "Dinner for few"
+    },
+    {
+        "video": "good guy NBA.mp4",
+        "videoType": "humor",
+        "question": "Why did the man say that LeBron had become a bad guy?",
+        "reference answer": "Because he was taking his talents to the Miami Heat at that time."
+    },
+    {
+        "video": "good guy NBA.mp4",
+        "videoType": "humor",
+        "question": "Why did the man say that LeBron became a good guy again?",
+        "reference answer": "Because he returned to the Cavaliers and brought them a championship."
+    },
+    {
+        "video": "good guy NBA.mp4",
+        "videoType": "humor",
+        "question": "What do 'good' and 'bad' symbolize throughout the entire video?",
+        "reference answer": "Whether to transfer and form a powerful team with other star players."
+    },
+    {
+        "video": "good guy NBA.mp4",
+        "videoType": "humor",
+        "question": "What's the punchline in the final part?",
+        "reference answer": "He says Durant is a bad guy, but the photo looks innocent."
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "This video is most likely the music video for which of the following songs?",
+        "reference answer": "Roar"
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "What kind of connotation and theme does the singer want to express through this music video?",
+        "reference answer": "It conveys the confident expression of the will and determination to overcome all challenges."
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "Based on this music video, what does 'Roar' symbolize?",
+        "reference answer": "The “Roar” is a symbol of independence and patience."
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "Which of the following lyrics is most likely to appear in this music video?",
+        "reference answer": "You’re gonna hear me roar."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "What kind of story does the entire music video tell?",
+        "reference answer": "The couple has broken up, and the boy is very reluctant to let go."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "In the final part of the MV, it seems like there are many people in front of the boy, but they disappear as soon as the camera turns. What does this symbolize?",
+        "reference answer": "This is from the boy's perspective; his eyes are only for the one he loves."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "What kind of emotions are highlighted by the lighting throughout the MV?",
+        "reference answer": "It highlights the boy's boundless sadness and helplessness after the breakup."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "Many people appear in front of the boy; who are they?",
+        "reference answer": "They symbolize the people who劝 (persuade) the boy to let go of the past after the breakup."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "What kind of story does the entire music video tell?",
+        "reference answer": "The boy hopes to help the girl out of her predicament and give her a better kind of love."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "What kind of social issues does the entire music video critique?",
+        "reference answer": "The entire music video critiques the issue of domestic violence."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "What do the scenes of the girl facing the mirror and showering herself symbolize in the film?",
+        "reference answer": "Self-reflection and the act of washing away the wounds on her body."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "Water is flowing out from under the bathroom door. Based on the context, what might the water symbolize here?",
+        "reference answer": "Here, the water symbolizes the pain that the girl has endured in an unhealthy relationship."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "The film features two scenes with a significant presence of water. What does the second scene symbolize?",
+        "reference answer": "The male protagonist expressed his love and his desire to protect the girl."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "What was the girl's ultimate fate?",
+        "reference answer": "She discovered her boyfriend's infidelity but was attacked by him in return."
+    },
+    {
+        "video": "Shawn Mendes - Treat You Better.mp4",
+        "videoType": "art",
+        "question": "Based on the context, which of the following lyrics is most likely to appear in this music video?",
+        "reference answer": "I know i can treat you better."
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "Based on the context, which of the following holidays is this song most likely to be played during?",
+        "reference answer": "Christmas"
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "Based on the context, what is the most likely emotion that viewers would feel after watching this music video? (Use one word.)",
+        "reference answer": "Sadness"
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "At the beginning of the film, the girl builds a snowman in the snow. What might the snowman symbolize?",
+        "reference answer": "It symbolizes the girl's possibly deceased parents."
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "Why does the girl in the film keep taking the snowman to various places?",
+        "reference answer": "The girl misses her parents dearly and doesn't want to part with them."
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "What kind of story do you think this music video is telling?",
+        "reference answer": "The girl has lost her parents and dreams that they could come back to her."
+    },
+    {
+        "video": "Sia - Snowman [Official Video].mp4",
+        "videoType": "art",
+        "question": "Which of the following lyrics is most likely to appear in this music video?",
+        "reference answer": "I want you to know that I'm never leaving"
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "Why did the girl suddenly stop at 1:53?",
+        "reference answer": "She saw the person who had been sponsoring her education all along."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "In the film, an old man from the eyeglass shop appears several times. The last time he appears, he takes off his glasses. What emotion might he be feeling?",
+        "reference answer": "He feels shocked and reflective about his previous actions."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "The withered plant that appears at 0:07 shows up several times later. What might it symbolize?",
+        "reference answer": "It symbolizes the hope and happiness brought by the man's small acts of kindness."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "What type of video do you think this is?",
+        "reference answer": "A commercial advertisement."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following companies is this video most likely to be an advertisement for?",
+        "reference answer": "Thai Life Insurance"
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "Why did the old man in the eyeglass shop shake his head at the beginning?",
+        "reference answer": "He thought the mother and daughter begging on the street were frauds trying to gain people's pity."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "What might the dog that follows the man throughout the film symbolize?",
+        "reference answer": "The kindness you give will eventually come back to you in some form, following you."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "Based on this film, please answer the question: Why are many people wealthy but still unhappy?",
+        "reference answer": "Because giving roses leaves a lingering fragrance on the hand—something money can't buy."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following comments best summarizes the content conveyed by this film?",
+        "reference answer": "He receives what money can't buy."
+    },
+    {
+        "video": "Unsung Hero ｜ ไทยประกันชีวิต (TLI).mp4",
+        "videoType": "advertisement",
+        "question": "What does the creator hope to appeal to through this film?",
+        "reference answer": "The creator hopes to appeal to everyone to treat others with kindness."
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following movies is the song in this music video most likely to be the theme song for?",
+        "reference answer": "Fast and Furious 7"
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "Based on the scenes and storyline of the music video, what is the general meaning conveyed by the lyrics that the singer starts rapping at 1:00?",
+        "reference answer": "It conveys the joy and happiness of being with friends, looking forward to meeting again."
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following lyrics is most likely to appear in this music video?",
+        "reference answer": "We've come a long way"
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "What is the scene starting at 2:40 most likely to symbolize?",
+        "reference answer": "With the actor's passing, the character permanently retires from the film."
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "What might the scene starting at 3:15 symbolize?",
+        "reference answer": "It symbolizes that good friends will part ways and head down different paths."
+    },
+    {
+        "video": "(PLASTIK) - A short film to end plastic pollution in South-East Asia.mp4",
+        "videoType": "movie",
+        "question": "What kind of appeal does this film want to express?",
+        "reference answer": "It calls on people to pay attention to plastic pollution and protect the environment."
+    },
+    {
+        "video": "(PLASTIK) - A short film to end plastic pollution in South-East Asia.mp4",
+        "videoType": "movie",
+        "question": "Speculate on the filming location of this movie.",
+        "reference answer": "South-East Asia"
+    },
+    {
+        "video": "Alan Walker - Faded.mp4",
+        "videoType": "art",
+        "question": "What is the protagonist doing throughout the entire music video?",
+        "reference answer": "Searching for lost or faded places or people based on a few clues."
+    },
+    {
+        "video": "Alan Walker - Faded.mp4",
+        "videoType": "art",
+        "question": "Which of the following lines is most likely to be a lyric from the song in this MV?",
+        "reference answer": "Where are you now"
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "What is the main theme that the entire animation aims to convey?",
+        "reference answer": "Humans should protect nature and care for the creatures around them."
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "Which of the following philosophies is the film most likely to convey?",
+        "reference answer": "To be born without freedom."
+    },
+    {
+        "video": "All You Can Eat - Animated Short (2D Student Film).mp4",
+        "videoType": "Animation",
+        "question": "Which of the following philosophical questions is more in line with this animation?",
+        "reference answer": "It is a matter of choosing: To pray, or kill them first."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Which of the following comments would better reinforce the profound meaning of the animation?",
+        "reference answer": "That moment when you realize the one who was most human was a dog."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Please speculate on the emotions that viewers are most likely to experience after watching this animation.",
+        "reference answer": "Feeling sadness for the dog's ending and empathizing with the dog."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Why does the dog bark and bite people's clothes in the animation?",
+        "reference answer": "It detected something unusual and wanted to save the baby."
+    },
+    {
+        "video": "Animated Short Film - THE DOG.mp4",
+        "videoType": "Animation",
+        "question": "Please summarize the dog using a few adjectives.",
+        "reference answer": "Brave, tragic, and kind."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the first dead pig symbolize?",
+        "reference answer": "It symbolizes judges and the law, representing a political class."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the cat in the animation represent?",
+        "reference answer": "The cat symbolizes ordinary folks or common people."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the food in the animation metaphorically represent?",
+        "reference answer": "The food symbolizes limited resources and wealth."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the sudden appearance of the tiger symbolize?",
+        "reference answer": "It symbolizes the revolutionary struggle to overthrow bureaucracy and corruption."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "In the animation, there is a scene where a cat sees a snake being taken away and never sees it again. What does this symbolize?",
+        "reference answer": "This illustrates that an individual cannot change a corrupt system."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "Why was the image of a tiger chosen to overturn the banquet on the table?",
+        "reference answer": "The tiger can symbolize the energy unleashed when a cat breaks free from oppression."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the appearance of several cats at the end of the film and the subsequent plot symbolize?",
+        "reference answer": "The old regime is overthrown, only to be replaced by new ordinary people, creating a vicious cycle."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "What does the wind-up mouse toy in the animation symbolize?",
+        "reference answer": "Trending news crafted by politicians to divert public attention."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "The kitten is placed in a new room while the old one is abandoned. What kind of reflection does the creator intend to provoke with this detail?",
+        "reference answer": "A vicious cycle endlessly repeated by politicians, while resources do not regenerate."
+    },
+    {
+        "video": "Dinner for few ｜ Animated short film by Nassos Vakalis.mp4",
+        "videoType": "Animation",
+        "question": "Please suggest a meaningful title for this animation.",
+        "reference answer": "Dinner for few"
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "This video is most likely the music video for which of the following songs?",
+        "reference answer": "Roar"
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "What kind of connotation and theme does the singer want to express through this music video?",
+        "reference answer": "It conveys the confident expression of the will and determination to overcome all challenges."
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "Based on this music video, what does 'Roar' symbolize?",
+        "reference answer": "The “Roar” is a symbol of independence and patience."
+    },
+    {
+        "video": "Katy Perry - Roar.mp4",
+        "videoType": "art",
+        "question": "Which of the following lyrics is most likely to appear in this music video?",
+        "reference answer": "You’re gonna hear me roar."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "What kind of story does the entire music video tell?",
+        "reference answer": "The couple has broken up, and the boy is very reluctant to let go."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "In the final part of the MV, it seems like there are many people in front of the boy, but they disappear as soon as the camera turns. What does this symbolize?",
+        "reference answer": "This is from the boy's perspective; his eyes are only for the one he loves."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "What kind of emotions are highlighted by the lighting throughout the MV?",
+        "reference answer": "It highlights the boy's boundless sadness and helplessness after the breakup."
+    },
+    {
+        "video": "Lewis Capaldi - Someone You Loved.mp4",
+        "videoType": "art",
+        "question": "Many people appear in front of the boy; who are they?",
+        "reference answer": "They symbolize the people who劝 (persuade) the boy to let go of the past after the breakup."
+    },
+    {
+        "video": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp4",
+        "videoType": "advertisement",
+        "question": "Which of the following lyrics would be most fitting for the final driving scene?",
+        "reference answer": "Oh, I'll tell you all about it when I see you again."
+    }
+]

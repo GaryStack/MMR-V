@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVBench视频标注工具</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .container {
+            max-width: 95%; /* 增加页面宽度 */
+        }
+        table {
+            width: 100%; /* 表格宽度占满父容器 */
+            table-layout: fixed; /* 固定布局，防止列过窄 */
+        }
+        th, td {
+            word-wrap: break-word; /* 自动换行 */
+        }
+        th {
+            text-align: center;
+        }
+        video {
+            max-width: 100%; /* 视频最大宽度为列宽 */
+            height: auto; /* 保持视频比例 */
+        }
+        .question-preview {
+            max-height: 150px;
+            overflow-y: auto; /* 添加滚动条 */
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">IVBench视频标注工具</h1>
+    <div class="mb-4">
+        <!-- <label for="videoUrlInput" class="form-label">输入视频链接并下载</label> -->
+        <div class="input-group">
+            <input type="text" class="form-control" id="videoUrlInput" placeholder="输入视频链接">
+            <button class="btn btn-primary" id="downloadVideoBtn">下载视频</button>
+        </div>
+        <div id="downloadStatus" class="mt-2 text-success" style="display: none;">视频下载成功！</div>
+        <div id="downloadError" class="mt-2 text-danger" style="display: none;">视频下载失败，请检查链接或重试。</div>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="text-center">
+                <th style="width: 25%;">视频</th>
+                <th style="width: 40%;">问题</th>
+                <th style="width: 20%;">备注</th>
+                <th style="width: 15%;">视频类型</th>
+                <th style="width: 10%;">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for video in videos %}
+            <tr>
+                <td>
+                    <div>
+                        <!-- 提取文件名并显示到视频上方 -->
+                        <strong class="video-name">{{ video.split('.')[0] }}</strong>
+                    </div>
+                    <video controls>
+                        <source src="/videos/{{ video }}" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                </td>
+                <td>
+                    <button class="btn btn-primary btn-sm add-question" data-video="{{ video }}" data-bs-toggle="modal" data-bs-target="#questionModal">添加问题</button>
+                    <ul class="list-group mt-2 question-preview" data-video="{{ video }}">
+                        {% for annotation in annotations if annotation.video == video %}
+                            {% for question in annotation.questions %}
+                            <li class="list-group-item d-flex justify-content-between align-items-start" data-index="{{ loop.index0 }}" data-question='{{ question|tojson }}'>
+                                <div>
+                                    <strong>问题:</strong> {{ question.question }}<br>
+                                </div>
+                                <div>
+                                    <button class="btn btn-warning btn-sm edit-question">编辑</button>
+                                    <button class="btn btn-danger btn-sm delete-question">删除</button>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        {% endfor %}
+                    </ul>
+                </td>
+                <td>
+                    {% set selected_annotation = annotations | selectattr('video', 'equalto', video) | list %}
+                    {% if selected_annotation %}
+                        <input type="text" class="form-control remark" placeholder="备注" value="{{ selected_annotation[0].remark | default('') }}">
+                    {% else %}
+                        <input type="text" class="form-control remark" placeholder="备注" value="">
+                    {% endif %}
+
+                </td>
+                <td>
+                    {% set selected_annotation = annotations | selectattr('video', 'equalto', video) | list %}
+                    {% if selected_annotation %}
+                        <select class="form-select video-type">
+                            <option value="cartoon" {% if selected_annotation[0].videoType == "cartoon" %}selected{% endif %}>动画</option>
+                            <option value="movie" {% if selected_annotation[0].videoType == "movie" %}selected{% endif %}>电影</option>
+                            <option value="documentary" {% if selected_annotation[0].videoType == "documentary" %}selected{% endif %}>纪录片</option>
+                            <option value="comedy" {% if selected_annotation[0].videoType == "comedy" %}selected{% endif %}>搞笑视频</option>
+                            <option value="other" {% if selected_annotation[0].videoType == "other" %}selected{% endif %}>其他</option>
+                        </select>
+                    {% else %}
+                        <select class="form-select video-type">
+                            <option value="cartoon">动画</option>
+                            <option value="movie">电影</option>
+                            <option value="documentary">纪录片</option>
+                            <option value="comedy">搞笑视频</option>
+                            <option value="other">其他</option>
+                        </select>
+                    {% endif %}
+                </td>
+                <td>
+                    <button class="btn btn-success btn-sm save-btn" data-video="{{ video }}">保存</button>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>                
+    </table>
+</div>
+
+<!-- 问题模态框 -->
+<div class="modal fade" id="questionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">编辑问题与答案</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="questionForm">
+                    <input type="hidden" id="editingIndex" value="-1">
+                    <div class="mb-3">
+                        <label for="questionInput" class="form-label">问题</label>
+                        <input type="text" class="form-control" id="questionInput" placeholder="输入问题">
+                    </div>
+                    <div class="mb-3">
+                        <label>选项</label>
+                        <div id="optionsContainer">
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control option-input" placeholder="输入选项">
+                                <button type="button" class="btn btn-danger remove-option">删除</button>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary add-option">添加选项</button>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correctAnswer" class="form-label">正确答案</label>
+                        <input type="text" class="form-control" id="correctAnswer" placeholder="输入正确答案">
+                    </div>
+                    <div class="mb-3">
+                        <label for="abilityType" class="form-label">能力类型</label>
+                        <input type="text" class="form-control" id="abilityType" placeholder="输入能力类型">
+                    </div>
+                    <div class="mb-3">
+                        <label for="remark" class="form-label">备注</label>
+                        <textarea class="form-control" id="remark" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary save-question">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // 绑定视频下载按钮点击事件
+        $('#downloadVideoBtn').click(function () {
+            const videoUrl = $('#videoUrlInput').val().trim();
+
+            if (!videoUrl) {
+                alert("请输入有效的视频 URL！");
+                return;
+            }
+
+            // 发送下载请求到后端
+            $.ajax({
+                url: '/download_video', // 后端处理视频下载的路由
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ url: videoUrl }),
+                success: function (response) {
+                    if (response.success) {
+                        alert("视频下载成功！");
+                        // 动态更新表格
+                        const newRowHtml = `
+                            <tr>
+                                <td>
+                                    <video controls>
+                                        <source src="/videos/${response.video}" type="video/mp4">
+                                        您的浏览器不支持视频播放。
+                                    </video>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm add-question" data-video="${response.video}" data-bs-toggle="modal" data-bs-target="#questionModal">添加问题</button>
+                                    <ul class="list-group mt-2 question-preview" data-video="${response.video}"></ul>
+                                </td>
+                                <td><input type="text" class="form-control remark" placeholder="备注"></td>
+                                <td>
+                                    <select class="form-select video-type">
+                                        <option value="cartoon">动画</option>
+                                        <option value="movie">电影</option>
+                                        <option value="documentary">纪录片</option>
+                                        <option value="comedy">搞笑视频</option>
+                                        <option value="other">其他</option>
+                                    </select>
+                                </td>
+                                <td><button class="btn btn-success btn-sm save-btn" data-video="${response.video}">保存</button></td>
+                            </tr>
+                        `;
+                        $('table tbody').append(newRowHtml);
+                    } else {
+                        alert("提示：" + response.message);
+                    }
+                },
+                error: function () {
+                    alert("请求失败，请检查后端服务是否正常运行。");
+                }
+            });
+        });
+
+        // 添加选项
+        $(document).on('click', '.add-option', function () {
+            $('#optionsContainer').append(`
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control option-input" placeholder="输入选项">
+                    <button type="button" class="btn btn-danger remove-option">删除</button>
+                </div>
+            `);
+        });
+
+        // 删除选项
+        $(document).on('click', '.remove-option', function () {
+            $(this).closest('.input-group').remove();
+        });
+
+        // 保存问题
+        $(document).on('click', '.save-question', function () {
+            const question = $('#questionInput').val();
+            const options = $('.option-input').map((_, el) => $(el).val()).get();
+            const correctAnswer = $('#correctAnswer').val();
+            const abilityType = $('#abilityType').val();
+            const remark = $('#remark').val();
+            const editingIndex = parseInt($('#editingIndex').val(), 10);
+
+            if (!question || options.length === 0 || !correctAnswer) {
+                alert("请填写完整信息！");
+                return;
+            }
+
+            const questionData = { question, options, correctAnswer, abilityType, remark };
+            const video = $('#questionModal').data('video');
+            const questionList = $(`.question-preview[data-video="${video}"]`);
+
+            if (editingIndex === -1) {
+                appendQuestionToList(questionList, questionData);
+            } else {
+                questionList.find(`li[data-index="${editingIndex}"]`).replaceWith(generateQuestionHtml(editingIndex, questionData));
+            }
+
+            $('#questionForm')[0].reset();
+            $('#editingIndex').val('-1');
+            $('#questionModal').modal('hide');
+        });
+
+        // 打开模态框
+        $(document).on('click', '.add-question', function () {
+            $('#questionForm')[0].reset();
+            $('#editingIndex').val('-1');
+            $('#questionModal').data('video', $(this).data('video'));
+        });
+
+        // 保存到服务器
+        $(document).on('click', '.save-btn', function () {
+            const video = $(this).data('video');
+            const remark = $(this).closest('tr').find('.remark').val();
+            const videoType = $(this).closest('tr').find('.video-type').val();
+
+            const questions = [];
+            $(`.question-preview[data-video="${video}"] li`).each(function () {
+                const questionData = JSON.parse($(this).attr('data-question'));
+                questions.push(questionData);
+            });
+
+            const payload = {
+                video,
+                remark,
+                videoType,
+                questions,
+            };
+
+            $.ajax({
+                url: '/save',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(payload),
+                success: function (response) {
+                    alert(response.message);
+                },
+                error: function () {
+                    alert("保存失败！");
+                }
+            });
+        });
+
+        // 编辑问题
+        $(document).on('click', '.edit-question', function () {
+            const questionData = JSON.parse($(this).closest('li').attr('data-question'));
+            const index = $(this).closest('li').data('index');
+
+            $('#questionInput').val(questionData.question);
+            $('#correctAnswer').val(questionData.correctAnswer);
+            $('#abilityType').val(questionData.abilityType);
+            $('#remark').val(questionData.remark);
+            $('#optionsContainer').empty();
+            questionData.options.forEach(option => {
+                $('#optionsContainer').append(`
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control option-input" value="${option}">
+                        <button type="button" class="btn btn-danger remove-option">删除</button>
+                    </div>
+                `);
+            });
+            $('#editingIndex').val(index);
+            $('#questionModal').modal('show');
+        });
+
+        // 删除问题
+        $(document).on('click', '.delete-question', function () {
+            $(this).closest('li').remove();
+        });
+
+        function appendQuestionToList(questionList, questionData) {
+            const index = questionList.find('li').length;
+            questionList.append(generateQuestionHtml(index, questionData));
+        }
+
+        function generateQuestionHtml(index, questionData) {
+            const sanitizedQuestionData = JSON.stringify(questionData).replace(/'/g, '&#39;');
+            return `
+                <li class="list-group-item d-flex justify-content-between align-items-start" data-index="${index}" data-question='${sanitizedQuestionData}'>
+                    <div>
+                        <strong>问题:</strong> ${questionData.question}<br>
+                    </div>
+                    <div>
+                        <button class="btn btn-warning btn-sm edit-question">编辑</button>
+                        <button class="btn btn-danger btn-sm delete-question">删除</button>
+                    </div>
+                </li>
+            `;
+        }
+    });
+</script>
+
+</body>
+</html>
