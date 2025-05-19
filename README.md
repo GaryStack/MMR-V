@@ -58,7 +58,7 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 ### Main Results
 
 <p align="center">
-    <img src="./figs/main_results.png" width="70%" height="70%">
+    <img src="./figs/main.png" width="80%" height="80%">
 </p>
 
 
