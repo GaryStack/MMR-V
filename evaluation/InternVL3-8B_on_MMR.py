@@ -1,8 +1,6 @@
 from dotenv import load_dotenv 
 import sys
 import os
-sys.path.append(os.path.abspath("/netdisk/zhukejian/implicit_video_anonotations"))
-sys.path.append(os.path.abspath("/mnt/userdata/implicit_video_anonotations"))
 import json
 import argparse
 import re
