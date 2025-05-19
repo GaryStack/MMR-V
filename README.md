@@ -35,8 +35,9 @@ tar -xvf videos.tar
 ```
 
 3. Evaluation Settings:
+Please place the unzipped video file under `MMR_V/videos`.
 
-4. Evaluation with script:
+5. Evaluation with script:
 
 ```shell
 python evaluation/server_evaluation_on_MMR.py \
