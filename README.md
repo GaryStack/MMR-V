@@ -44,9 +44,9 @@ python evaluation/server_evaluation_on_MMR.py \
       --api_url https://XXX/v1/chat/completions \
       --api_key sk-XXX \
       --with_cot \
-      --frame_count 4
+      --frame_count 32
 ```
-
+Please provide valid API information at the `--api_url` and `--api_key` fields. For open-source models running on a local `vllm` server, set `--api_url` to the local server address and leave `--api_key` empty. If the `--with_cot` flag is specified, the evaluation will use *Chain-of-Thought (CoT) prompting*; otherwise, the model will default to *directly* outputting the final answer.
 
 ## 🧠 Model Response Examples
 
