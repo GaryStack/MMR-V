@@ -23,5 +23,5 @@ This is the code repository of the video reasoning benchmark MMR-V
 ## 🧠 Model Response Examples
 
 <p align="center">
-    <img src="./figs/o4-compare_00.png" width="100%" height="100%">
+    <img src="./figs/o4-compare_00.png" width="90%" height="90%">
 </p>
