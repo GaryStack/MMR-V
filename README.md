@@ -38,7 +38,14 @@ tar -xvf videos.tar
 
 4. Evaluation with script:
 
-
+```shell
+python evaluation/server_evaluation_on_MMR.py \
+      --model_name gemini-2.5-flash-preview-04-17 \
+      --api_url https://XXX/v1/chat/completions \
+      --api_key sk-XXX \
+      --with_cot \
+      --frame_count 4
+```
 
 
 ## 🧠 Model Response Examples
