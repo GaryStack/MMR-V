@@ -65,7 +65,7 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 ### Performance across Different Tasks
 
 <p align="center">
-    <img src="./figs/task_analysis_00.png" width="90%" height="90%">
+    <img src="./figs/task_analysis_00.png" width="70%" height="70%">
 </p>
 
 
