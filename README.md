@@ -15,3 +15,7 @@ This is the code repository of the video reasoning benchmark MMR-V
 
 
 ## 🧠 MMR-V Task Examples
+
+<p align="center">
+    <img src="./figs/data_example_intro_v4_5_16.png" width="100%" height="100%">
+</p>
