@@ -38,6 +38,9 @@ tar -xvf videos.tar
    
 Please place the unzipped video file under `MMR-V/videos`.
 
+Other model inference details and implementation can be found in `utils
+/video_utils.py`.
+
 5. Evaluation with script:
 
 ```shell
