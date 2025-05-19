@@ -28,8 +28,8 @@ def load_MMR_V_4o_error():
 def load_MMR_V():
     file_paths = [
         # "/mnt/userdata/MMR_V/MMR-V - video -llava.json"
-        "/netdisk/zhukejian/MMR_V/MMR-V - split.json",
-        "/mnt/userdata/MMR_V/MMR-V - split.json"
+        #"/netdisk/zhukejian/MMR_V/MMR-V - split.json",
+        #"/mnt/userdata/MMR_V/MMR-V - split.json"
     ]
 
     samples = None
