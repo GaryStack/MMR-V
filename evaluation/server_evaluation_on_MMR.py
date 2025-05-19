@@ -118,11 +118,11 @@ if __name__ == '__main__':
     samples = load_dataset("JokerJan/MMR-VBench", split='test')
 
     if args.with_cot:
-        save_file = f'your_local_path/MMR_V/results/{args.model_name}_on_MMR_V_cot.json'
+        save_file = f'your_local_path/MMR-V/results/{args.model_name}_on_MMR_V_cot.json'
     else:
-        save_file = f'your_local_path/MMR_V/results/{args.model_name}_on_MMR_V.json'
+        save_file = f'your_local_path/MMR-V/results/{args.model_name}_on_MMR_V.json'
 
-    visual_path = f'your_local_path/MMR_V/videos'            
+    visual_path = f'your_local_path/MMR-V/videos'            
     
     results = []
     id_set = set()
