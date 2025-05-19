@@ -22,7 +22,7 @@ The sequential structure of videos poses a challenge to the ability of multimoda
 
 * *Confusability*: Carefully designed distractor annotation strategies to reduce model shortcuts. 
 
-MMR-V consists of 317 videos and 1,257 tasks. Models like o3 and o4-mini have achieved impressive results on image reasoning tasks by leveraging tool use to enable 🕵️evidence mining on images. Similarly, tasks in MMR-V require models to perform in-depth reasoning and analysis over visual information from different frames of a video, challenging their ability to 🕵️mine evidence across long-range multi-frame.
+MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on image reasoning tasks by leveraging tool use to enable 🕵️evidence mining on images. Similarly, tasks in MMR-V require models to perform in-depth reasoning and analysis over visual information from different frames of a video, challenging their ability to 🕵️**mine evidence across long-range multi-frame**.
 
 ## 🎬 MMR-V Task Examples
 
