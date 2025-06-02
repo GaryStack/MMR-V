@@ -9,7 +9,7 @@
 </p>
 
 
-This is the code repository of the video reasoning benchmark MMR-V
+🧠 **With MMR-V, we aim to explore whether MLLMs can "think with videos" and mine evidence from long-span, multi-frame video information.**
 
 
 ## 👀 MMR-V Overview
