@@ -24,7 +24,7 @@
 
 * *Confusability*: Carefully designed distractor annotation strategies to reduce model shortcuts. 
 
-MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on **"Think with Images"** tasks. Similarly, tasks in MMR-V require models to perform in-depth reasoning over visual information from different frames of a video, challenging their ability to 🕵️mine evidence across long-range multi-frame (**"Think with Video"**).
+MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on **"Think with Images"** tasks, which require models to 🕵️mine evidence on image. Similarly, tasks in MMR-V require models to perform in-depth reasoning over visual information from different frames of a video, challenging their ability to 🕵️mine evidence across long-range multi-frame (**"Think with Video"**).
 
 ## 🎬 MMR-V Task Examples
 
