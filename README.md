@@ -15,6 +15,7 @@
 ## 👀 MMR-V Overview
 > The sequential structure of videos poses a challenge to the ability of multimodal large language models (MLLMs) to 🕵️locate multi-frame evidence and conduct multimodal reasoning. However, existing video benchmarks mainly focus on understanding tasks, which only require models to match frames mentioned in the question (hereafter referred to as ``question frame'') and perceive a few adjacent frames. To address this gap, we propose **MMR-V: A Benchmark for Multimodal Deep Reasoning in Videos**, which is characterized by the following features. 
 
+### 🌟 Highlights
 * *Long-range, multi-frame reasoning*: Models are required to infer and analyze evidence frames that may be far from the question frame. 
 
 * *Beyond perception*: Questions cannot be answered through direct perception alone but require reasoning over hidden information. 
