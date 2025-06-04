@@ -114,12 +114,7 @@ The full video corresponding to this example can be found here: https://www.yout
 If you find **OmniSpatial** useful, please cite:
 
 ```bibtex
-@article{omnispatial25,
-  title   = {OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models},
-  author  = {Mengdi Jia and Zekun Qi and Shaochen Zhang and Wenyao Zhang and Xinqiang Yu and Jiawei He and He Wang and Li Yi},
-  journal = {arXiv preprint arXiv:2506.03135},
-  year = {2025}
-}
+coming soon
 ```
 
 ---
