@@ -149,11 +149,3 @@ coming soon
 ```
 
 ---
-
-## 📄 License
-
-* **Code** — MIT License
-* **Data** — CC BY-NC 4.0 (non-commercial research only)  
-Please check individual images for additional constraints.
-
----
