@@ -31,6 +31,8 @@ MMR-V consists of **317** videos and **1,257** tasks. All videos and tasks have 
     <img src="./figs/data_example_intro_v4_5_16.png" width="100%" height="100%">
 </p>
 
+---
+
 ## 🚀 Quick Start
 
 1. Load the MMR-V Benchmark
@@ -126,6 +128,8 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 <p align="center">
     <img src="./figs/error analysis_00.png" width="35%" height="35%">
 </p>
+
+---
 
 ## 🧠 Model Response Examples
 
