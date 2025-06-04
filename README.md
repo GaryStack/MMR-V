@@ -45,7 +45,34 @@ cat videos.tar.part.* > videos.tar
 tar -xvf videos.tar
 ```
 
-3. Evaluation Settings:
+3. Data Format
+All data in **MMR-V** are standardized to the following format:
+```json
+{
+    "video": "Level 1 to 100 Magic Tricks Anyone Can Do.mp4",
+    "videoType": "TV",
+    "question": "How does the man at the beginning of the video pick up and casually control the flame on the lighter?",
+    "options": [
+      "(A) He used a holographic projector to simulate the flame.",
+      "(B) He used a special flame-retardant chemical on his hand to create the illusion.",
+      "(C) He possessed an innate immunity to fire.",
+      "(D) He practiced yoga meditation to withstand any flame heat.",
+      "(E) A quick extinguishing spray was applied that halted the flame.",
+      "(F) He surrounded the flame with an invisible film.",
+      "(G) He mastered the art of fire manipulation.",
+      "(H) The flame was made of non-flammable gas.",
+      "(I) He applied a hidden cooling technology under his sleeve.",
+      "(J) The flame was actually an LED light.",
+      "(K) A hidden lighter in his hand, a sleight of hand trick."
+    ],
+    "correctAnswer": "(K)",
+    "abilityType_L2": "Counterintuitive Reasoning",
+    "abilityType_L3": "Magic Deconstruction",
+    "question_idx": 20
+}
+```
+
+4. Evaluation Settings:
    
 Please place the unzipped video file under `MMR-V/videos`.
 
