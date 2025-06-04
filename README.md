@@ -48,6 +48,7 @@ tar -xvf videos.tar
 ```
 
 3. Data Format
+   
 All data in **MMR-V** are standardized to the following format:
 ```json
 {
