@@ -23,7 +23,7 @@
 
 * *Confusability*: Carefully designed distractor annotation strategies to reduce model shortcuts. 
 
-MMR-V consists of **317** videos and **1,257** tasks. All videos and tasks have been manually reviewed to ensure quality and diversity. 
+MMR-V consists of **317** videos and **1,257** tasks. All videos and tasks have been manually reviewed to ensure quality and diversity, aiming to closely reflect real-world scenarios.
 
 ## 🎬 MMR-V Task Examples
 
