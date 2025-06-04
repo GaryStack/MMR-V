@@ -97,7 +97,7 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 
 
 <p align="center">
-    <img src="./figs/error analysis_00.png" width="50%" height="50%">
+    <img src="./figs/error analysis_00.png" width="40%" height="40%">
 </p>
 
 ## 🧠 Model Response Examples
