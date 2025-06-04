@@ -74,6 +74,8 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 
 *Full leaderboard in [our homepage](https://mmr-v.github.io/).*
 
+*📢 The leaderboard is constantly updating as we are welcoming new submissions!*
+
 ---
 
 
