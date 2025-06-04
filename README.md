@@ -142,7 +142,7 @@ The full video corresponding to this example can be found here: https://www.yout
 
 ## 📜 Citation
 
-If you find **OmniSpatial** useful, please cite:
+We sincerely appreciate it if **MMR-V** provides any inspiration or assistance to your research. Please consider citing the following article and giving us a star⭐.
 
 ```bibtex
 coming soon
