@@ -66,11 +66,11 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 
 ---
 ## 📊 Leaderboard <a name="leaderboard"></a>
-| Rank | Model | Overall (%) w/o CoT | Implicit (%) w/o CoT | Explicit (%) w/o CoT | Art | Life | TV | Film | Film | Phi. |
+| Rank | Model | Overall | Implicit | Explicit | Art | Life | TV | Film | Film | Phi. |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Human | 86.0 | 80.6 | 91.2 | 57.7 | 92.3 | 90.6 | 92.3 | 90.7 | 70.0 |
-| 2 | o4-mini-2025-04-16 <br> OpenAI | 52.5 | 54.6 | 46.0 | 40.1 | 54.0 | 54.0 | 51.7 | 65.3 | 27.9 |
-| 3 | Gemini-2.5-Flash <br> Google | 51.2 | 52.9 |  46.9 |  45.3 | 39.5 | 50.3 | 47.9 | 65.6 | 34.9 |
+| 🥇 |  Human | 86.0 | 80.6 | 91.2 | 57.7 | 92.3 | 90.6 | 92.3 | 90.7 | 70.0 |
+| 🥈 | o4-mini | 52.5 | 54.6 | 46.0 | 40.1 | 54.0 | 54.0 | 51.7 | 65.3 | 27.9 |
+| 🥉 | Gemini-2.5-Flash | 51.2 | 52.9 |  46.9 |  45.3 | 39.5 | 50.3 | 47.9 | 65.6 | 34.9 |
 
 *Full leaderboard in [our homepage](https://mmr-v.github.io/).*
 
