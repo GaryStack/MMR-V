@@ -31,7 +31,7 @@ MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini
     <img src="./figs/data_example_intro_v4_5_16.png" width="100%" height="100%">
 </p>
 
-## 📚 Evaluation
+## 🚀 Quick Start
 
 1. Load the MMR-V Benchmark
 
