@@ -86,7 +86,7 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 ### Performance across Different Tasks
 
 <p align="center">
-    <img src="./figs/task_analysis_final.png" width="40%" height="40%">
+    <img src="./figs/task_analysis_final.png" width="35%" height="35%">
 </p>
 
 ### Impact of Audio Input
@@ -97,10 +97,8 @@ Please provide valid API information at the `--api_url` and `--api_key` fields. 
 
 
 ### Error Analysis
-
-
 <p align="center">
-    <img src="./figs/error analysis_00.png" width="40%" height="40%">
+    <img src="./figs/error analysis_00.png" width="35%" height="35%">
 </p>
 
 ## 🧠 Model Response Examples
