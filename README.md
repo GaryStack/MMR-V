@@ -24,7 +24,7 @@
 
 * *Confusability*: Carefully designed distractor annotation strategies to reduce model shortcuts. 
 
-MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on **"Think with Images"** tasks, which require models to 🕵️mine evidence on image. Similarly, tasks in MMR-V require models to perform in-depth reasoning over visual information from different frames of a video, challenging their ability to 🕵️mine evidence across long-range multi-frame (**"Think with Video"**).
+MMR-V consists of **317** videos and **1,257** tasks. All videos and tasks have been manually reviewed to ensure quality and diversity. 
 
 ## 🎬 MMR-V Task Examples
 
@@ -110,3 +110,26 @@ The figure below presents example responses with Multimodal Chain-of-Thought (MC
     <img src="./figs/o4-compare_00.png" width="60%" height="60%">
 </p>
 The full video corresponding to this example can be found here: https://www.youtube.com/watch?v=g1NuAfkQ-Hw.
+
+## 📜 Citation
+
+If you find **OmniSpatial** useful, please cite:
+
+```bibtex
+@article{omnispatial25,
+  title   = {OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models},
+  author  = {Mengdi Jia and Zekun Qi and Shaochen Zhang and Wenyao Zhang and Xinqiang Yu and Jiawei He and He Wang and Li Yi},
+  journal = {arXiv preprint arXiv:2506.03135},
+  year = {2025}
+}
+```
+
+---
+
+## 📄 License
+
+* **Code** — MIT License
+* **Data** — CC BY-NC 4.0 (non-commercial research only)  
+Please check individual images for additional constraints.
+
+---
