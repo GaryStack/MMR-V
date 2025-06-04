@@ -20,11 +20,11 @@
 
 * *Beyond perception*: Questions cannot be answered through direct perception alone but require reasoning over hidden information. 
 
-* *Reliability*: All tasks are manually annotated, referencing extensive real-world user understanding to align with common perceptions. 
+* *Reliability*: All tasks are **manually annotated**, referencing extensive real-world user understanding to align with common perceptions. 
 
 * *Confusability*: Carefully designed distractor annotation strategies to reduce model shortcuts. 
 
-MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on image reasoning tasks by leveraging tool use to enable 🕵️evidence mining on images. Similarly, tasks in MMR-V require models to perform in-depth reasoning and analysis over visual information from different frames of a video, challenging their ability to 🕵️**mine evidence across long-range multi-frame**.
+MMR-V consists of **317** videos and **1,257** tasks. Models like o3 and o4-mini have achieved impressive results on **"Think with Images"** tasks. Similarly, tasks in MMR-V require models to perform in-depth reasoning and analysis over visual information from different frames of a video (**"Think with Video"**), challenging their ability to 🕵️**mine evidence across long-range multi-frame**.
 
 ## 🎬 MMR-V Task Examples
 
