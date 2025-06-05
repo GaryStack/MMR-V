@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://huggingface.co/datasets/JokerJan/MMR-VBench"> 🤗 Benchmark</a></a> |
-  <a href="https://github.com/GaryStack/MMR-V"> 📝 Paper(Coming Soon)</a> |
+  <a href="https://arxiv.org/abs/2506.04141"> 📝 Paper</a> |
   <a href="https://mmr-v.github.io/"> 🏠 Homepage</a>
 </p>
 
