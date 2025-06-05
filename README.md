@@ -145,7 +145,15 @@ The full video corresponding to this example can be found here: https://www.yout
 We sincerely appreciate it if **MMR-V** provides any inspiration or assistance to your research. Please consider citing the following article and giving us a star⭐.
 
 ```bibtex
-coming soon
+@misc{zhu2025mmrvwhatsleftunsaid,
+      title={MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos}, 
+      author={Kejian Zhu and Zhuoran Jin and Hongbang Yuan and Jiachun Li and Shangqing Tu and Pengfei Cao and Yubo Chen and Kang Liu and Jun Zhao},
+      year={2025},
+      eprint={2506.04141},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.04141}, 
+}
 ```
 
 ---
